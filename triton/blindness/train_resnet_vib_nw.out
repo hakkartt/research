@@ -1,0 +1,104 @@
+File path is /scratch/work/hakkina7/blindness/
+Device is cuda
+
+Epoch 1:
+Mean loss 1.0187530044628226
+Epoch time ~19.0 minutes
+
+
+Epoch 2:
+Mean loss 0.9318821501472722
+Epoch time ~8.0 minutes
+
+
+Epoch 3:
+Mean loss 0.8233781761449316
+Epoch time ~8.0 minutes
+
+
+Epoch 4:
+Mean loss 0.7732854453117951
+Epoch time ~8.0 minutes
+
+
+Epoch 5:
+Mean loss 0.7487233909575836
+Epoch time ~8.0 minutes
+
+
+Epoch 6:
+Mean loss 0.729409911710283
+Epoch time ~8.0 minutes
+
+
+Epoch 7:
+Mean loss 0.7167436337989309
+Epoch time ~8.0 minutes
+
+
+Epoch 8:
+Mean loss 0.7033411432867465
+Epoch time ~8.0 minutes
+
+
+Epoch 9:
+Mean loss 0.700123196710711
+Epoch time ~8.0 minutes
+
+
+Epoch 10:
+Mean loss 0.7081487094578536
+Epoch time ~8.0 minutes
+
+
+Epoch 11:
+Mean loss 0.6998634118100872
+Epoch time ~8.0 minutes
+
+
+Epoch 12:
+Mean loss 0.6981735864411229
+Epoch time ~24.0 minutes
+
+
+Epoch 13:
+Mean loss 0.7054373116596885
+Epoch time ~8.0 minutes
+
+
+Epoch 14:
+Mean loss 0.6982262017934219
+Epoch time ~8.0 minutes
+
+
+Epoch 15:
+Mean loss 0.7033972532852836
+Epoch time ~8.0 minutes
+
+
+Epoch 16:
+Mean loss 0.7011778756328251
+Epoch time ~8.0 minutes
+
+
+Epoch 17:
+Mean loss 0.7032334033561789
+Epoch time ~8.0 minutes
+
+
+Epoch 18:
+Mean loss 0.7013209028088528
+Epoch time ~8.0 minutes
+
+
+Epoch 19:
+Mean loss 0.7014580356038135
+Epoch time ~8.0 minutes
+
+
+Epoch 20:
+Mean loss 0.7005874819081762
+Epoch time ~8.0 minutes
+
+Training finished. Time ~3.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/blindness/resnet50_vib_nw.pth

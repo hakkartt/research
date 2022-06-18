@@ -1,0 +1,857 @@
+File path is /scratch/work/hakkina7/chest_xray/
+Device is cuda
+Pre-trained base models succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50.pth
+==================================================================
+BETA = 1e-10
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_1e-10.pth
+Evaluating the resnet50_vib_1e-10.pth model on the test set.
+
+##################################################################
+No attack
+Computing took ~0 minutes.
+
+Classified 95.33 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+FGM
+Computing took ~0 minutes.
+
+Classified 17.08 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_1_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 13.10 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_2_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.90 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_5_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.78 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.02_eps
+Computing took ~17 minutes.
+
+Classified 95.44 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.05_eps
+Computing took ~17 minutes.
+
+Classified 94.99 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.1_eps
+Computing took ~17 minutes.
+
+Classified 94.87 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.5_eps
+Computing took ~17 minutes.
+
+Classified 77.11 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_1_eps
+Computing took ~17 minutes.
+
+Classified 56.95 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-09
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_1e-09.pth
+Evaluating the resnet50_vib_1e-09.pth model on the test set.
+
+##################################################################
+No attack
+Computing took ~0 minutes.
+
+Classified 95.44 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+FGM
+Computing took ~0 minutes.
+
+Classified 16.86 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_1_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 14.01 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_2_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.67 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_5_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.67 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.02_eps
+Computing took ~17 minutes.
+
+Classified 95.56 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.05_eps
+Computing took ~17 minutes.
+
+Classified 95.22 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.1_eps
+Computing took ~17 minutes.
+
+Classified 94.76 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.5_eps
+Computing took ~17 minutes.
+
+Classified 75.63 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_1_eps
+Computing took ~17 minutes.
+
+Classified 58.20 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-08
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_1e-08.pth
+Evaluating the resnet50_vib_1e-08.pth model on the test set.
+
+##################################################################
+No attack
+Computing took ~0 minutes.
+
+Classified 95.33 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+FGM
+Computing took ~0 minutes.
+
+Classified 15.49 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_1_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 12.41 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_2_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.78 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_5_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.78 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.02_eps
+Computing took ~17 minutes.
+
+Classified 95.33 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.05_eps
+Computing took ~17 minutes.
+
+Classified 94.76 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.1_eps
+Computing took ~17 minutes.
+
+Classified 94.65 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.5_eps
+Computing took ~17 minutes.
+
+Classified 85.54 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_1_eps
+Computing took ~17 minutes.
+
+Classified 64.58 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-07
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_1e-07.pth
+Evaluating the resnet50_vib_1e-07.pth model on the test set.
+
+##################################################################
+No attack
+Computing took ~0 minutes.
+
+Classified 95.33 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+FGM
+Computing took ~0 minutes.
+
+Classified 17.20 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_1_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 12.41 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_2_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.90 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_5_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.78 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.02_eps
+Computing took ~17 minutes.
+
+Classified 95.10 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.05_eps
+Computing took ~17 minutes.
+
+Classified 95.10 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.1_eps
+Computing took ~17 minutes.
+
+Classified 94.42 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.5_eps
+Computing took ~17 minutes.
+
+Classified 83.94 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_1_eps
+Computing took ~17 minutes.
+
+Classified 64.12 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-06
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_1e-06.pth
+Evaluating the resnet50_vib_1e-06.pth model on the test set.
+
+##################################################################
+No attack
+Computing took ~0 minutes.
+
+Classified 95.10 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+FGM
+Computing took ~0 minutes.
+
+Classified 41.46 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_1_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 42.03 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_2_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 40.43 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_5_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 39.18 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.02_eps
+Computing took ~17 minutes.
+
+Classified 94.76 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.05_eps
+Computing took ~17 minutes.
+
+Classified 94.65 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.1_eps
+Computing took ~17 minutes.
+
+Classified 94.19 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.5_eps
+Computing took ~17 minutes.
+
+Classified 83.14 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_1_eps
+Computing took ~17 minutes.
+
+Classified 56.15 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-05
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_1e-05.pth
+Evaluating the resnet50_vib_1e-05.pth model on the test set.
+
+##################################################################
+No attack
+Computing took ~0 minutes.
+
+Classified 95.44 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+FGM
+Computing took ~0 minutes.
+
+Classified 14.92 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_1_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 12.19 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_2_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.67 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_5_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.67 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.02_eps
+Computing took ~17 minutes.
+
+Classified 95.90 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.05_eps
+Computing took ~17 minutes.
+
+Classified 95.33 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.1_eps
+Computing took ~17 minutes.
+
+Classified 95.33 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.5_eps
+Computing took ~17 minutes.
+
+Classified 81.66 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_1_eps
+Computing took ~17 minutes.
+
+Classified 60.82 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.0001
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_0.0001.pth
+Evaluating the resnet50_vib_0.0001.pth model on the test set.
+
+##################################################################
+No attack
+Computing took ~0 minutes.
+
+Classified 95.33 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+FGM
+Computing took ~0 minutes.
+
+Classified 11.73 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_1_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 8.54 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_2_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.78 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_5_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.78 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.02_eps
+Computing took ~17 minutes.
+
+Classified 95.44 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.05_eps
+Computing took ~17 minutes.
+
+Classified 95.67 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.1_eps
+Computing took ~17 minutes.
+
+Classified 94.87 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.5_eps
+Computing took ~17 minutes.
+
+Classified 75.97 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_1_eps
+Computing took ~17 minutes.
+
+Classified 56.38 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.001
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_0.001.pth
+Evaluating the resnet50_vib_0.001.pth model on the test set.
+
+##################################################################
+No attack
+Computing took ~0 minutes.
+
+Classified 95.44 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+FGM
+Computing took ~0 minutes.
+
+Classified 12.53 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_1_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 9.23 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_2_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.67 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_5_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.67 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.02_eps
+Computing took ~17 minutes.
+
+Classified 95.56 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.05_eps
+Computing took ~17 minutes.
+
+Classified 95.56 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.1_eps
+Computing took ~17 minutes.
+
+Classified 94.65 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.5_eps
+Computing took ~17 minutes.
+
+Classified 81.55 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_1_eps
+Computing took ~17 minutes.
+
+Classified 61.28 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.01
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_0.01.pth
+Evaluating the resnet50_vib_0.01.pth model on the test set.
+
+##################################################################
+No attack
+Computing took ~0 minutes.
+
+Classified 95.67 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+FGM
+Computing took ~0 minutes.
+
+Classified 13.55 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_1_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 11.05 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_2_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.44 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_5_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.44 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.02_eps
+Computing took ~17 minutes.
+
+Classified 95.44 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.05_eps
+Computing took ~17 minutes.
+
+Classified 95.56 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.1_eps
+Computing took ~17 minutes.
+
+Classified 94.53 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.5_eps
+Computing took ~17 minutes.
+
+Classified 82.69 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_1_eps
+Computing took ~17 minutes.
+
+Classified 66.51 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.1
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_0.1.pth
+Evaluating the resnet50_vib_0.1.pth model on the test set.
+
+##################################################################
+No attack
+Computing took ~0 minutes.
+
+Classified 95.79 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+FGM
+Computing took ~0 minutes.
+
+Classified 11.50 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_1_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 7.74 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_2_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.33 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+PGD_with_5_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.33 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.02_eps
+Computing took ~17 minutes.
+
+Classified 95.79 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.05_eps
+Computing took ~17 minutes.
+
+Classified 95.56 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.1_eps
+Computing took ~17 minutes.
+
+Classified 94.87 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.5_eps
+Computing took ~17 minutes.
+
+Classified 81.89 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_1_eps
+Computing took ~17 minutes.
+
+Classified 62.41 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+/home/hakkina7/.local/lib/python3.8/site-packages/cleverhans/torch/attacks/spsa.py:122: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  perturbation = torch.tensor(_project_perturbation(perturbation, norm, eps, x, clip_min, clip_max), requires_grad=True)
+/home/hakkina7/.local/lib/python3.8/site-packages/cleverhans/torch/attacks/spsa.py:141: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  perturbation = torch.tensor(_project_perturbation(perturbation, norm, eps, x, clip_min, clip_max), requires_grad=True)

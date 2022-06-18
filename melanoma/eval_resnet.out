@@ -1,0 +1,26 @@
+File path is /scratch/work/hakkina7/melanoma/
+Device is cpu
+Model succesfully loaded from /scratch/work/hakkina7/melanoma/resnet50.pth
+Evaluating the ResNet50 model on the validation set.
+Classified 41.48 % of validation images correctly.
+Precision on validation set: [0.21 0.61 0.18 0.   0.34 0.94 0.14 0.67]
+Recall on validation set: [0.6  0.47 0.4  0.   0.58 0.34 0.31 0.92]
+F1-score on validation set: [0.31 0.53 0.24 0.   0.43 0.5  0.2  0.77]
+ROC AUC on validation set: {'AK': 0.34, 'BCC': 0.36, 'BKL': 0.37, 'DF': 0.36, 'MEL': 0.52, 'NV': 0.64, 'SCC': 0.29, 'VASC': 0.75}
+Confusion matrix on validation set:
+                 pred as AK  pred as BCC  ...  pred as SCC  pred as VASC
+true class AK            26            5  ...            6             0
+true class BCC           25           78  ...           18             1
+true class BKL           28            9  ...            6             0
+true class DF             4            4  ...            1             0
+true class MEL           22            7  ...           22             0
+true class NV            10           18  ...            6             5
+true class SCC            9            6  ...           10             0
+true class VASC           0            1  ...            0            12
+
+[8 rows x 8 columns]
+
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)

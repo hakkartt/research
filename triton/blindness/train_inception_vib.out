@@ -1,0 +1,1055 @@
+File path is /scratch/work/hakkina7/blindness/
+Device is cuda
+Training InceptionV3 model for DR blindess classification task.
+##################################################################
+BETA = 1e-10
+##################################################################
+
+Epoch 1:
+Mean loss 0.3056418912626965
+Epoch time ~6.0 minutes
+
+
+Epoch 2:
+Mean loss 0.19103428132265157
+Epoch time ~5.0 minutes
+
+
+Epoch 3:
+Mean loss 0.1801934365674084
+Epoch time ~5.0 minutes
+
+
+Epoch 4:
+Mean loss 0.15264446933186895
+Epoch time ~5.0 minutes
+
+
+Epoch 5:
+Mean loss 0.136152481963939
+Epoch time ~5.0 minutes
+
+
+Epoch 6:
+Mean loss 0.14336734162846013
+Epoch time ~5.0 minutes
+
+
+Epoch 7:
+Mean loss 0.13348001697222175
+Epoch time ~5.0 minutes
+
+
+Epoch 8:
+Mean loss 0.13343390085450982
+Epoch time ~5.0 minutes
+
+
+Epoch 9:
+Mean loss 0.14036288067860447
+Epoch time ~5.0 minutes
+
+
+Epoch 10:
+Mean loss 0.13655827718827387
+Epoch time ~5.0 minutes
+
+
+Epoch 11:
+Mean loss 0.12092866001488722
+Epoch time ~5.0 minutes
+
+
+Epoch 12:
+Mean loss 0.12125925694430328
+Epoch time ~5.0 minutes
+
+
+Epoch 13:
+Mean loss 0.12972249884320342
+Epoch time ~5.0 minutes
+
+
+Epoch 14:
+Mean loss 0.1256100446512194
+Epoch time ~5.0 minutes
+
+
+Epoch 15:
+Mean loss 0.12458760808626919
+Epoch time ~5.0 minutes
+
+
+Epoch 16:
+Mean loss 0.13286770009638174
+Epoch time ~5.0 minutes
+
+
+Epoch 17:
+Mean loss 0.1307033470062458
+Epoch time ~5.0 minutes
+
+
+Epoch 18:
+Mean loss 0.11772488111265651
+Epoch time ~5.0 minutes
+
+
+Epoch 19:
+Mean loss 0.12532523102329476
+Epoch time ~5.0 minutes
+
+
+Epoch 20:
+Mean loss 0.13786335574948919
+Epoch time ~5.0 minutes
+
+Training finished. Time ~2.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/blindness/inceptionV3_vib_1e-10.pth
+##################################################################
+BETA = 1e-09
+##################################################################
+
+Epoch 1:
+Mean loss 0.4312839180050144
+Epoch time ~5.0 minutes
+
+
+Epoch 2:
+Mean loss 0.25892735200645606
+Epoch time ~5.0 minutes
+
+
+Epoch 3:
+Mean loss 0.19279056857340038
+Epoch time ~5.0 minutes
+
+
+Epoch 4:
+Mean loss 0.1540354472666007
+Epoch time ~5.0 minutes
+
+
+Epoch 5:
+Mean loss 0.1343227559801839
+Epoch time ~5.0 minutes
+
+
+Epoch 6:
+Mean loss 0.1377306901647345
+Epoch time ~5.0 minutes
+
+
+Epoch 7:
+Mean loss 0.1410845994402695
+Epoch time ~5.0 minutes
+
+
+Epoch 8:
+Mean loss 0.13262627511184014
+Epoch time ~5.0 minutes
+
+
+Epoch 9:
+Mean loss 0.13409259603561266
+Epoch time ~5.0 minutes
+
+
+Epoch 10:
+Mean loss 0.1420697688287043
+Epoch time ~5.0 minutes
+
+
+Epoch 11:
+Mean loss 0.12836930110200268
+Epoch time ~5.0 minutes
+
+
+Epoch 12:
+Mean loss 0.12601445374362494
+Epoch time ~5.0 minutes
+
+
+Epoch 13:
+Mean loss 0.12566423417150002
+Epoch time ~5.0 minutes
+
+
+Epoch 14:
+Mean loss 0.14119501516182462
+Epoch time ~5.0 minutes
+
+
+Epoch 15:
+Mean loss 0.128147154479571
+Epoch time ~5.0 minutes
+
+
+Epoch 16:
+Mean loss 0.12904793015964652
+Epoch time ~5.0 minutes
+
+
+Epoch 17:
+Mean loss 0.12638842423810906
+Epoch time ~5.0 minutes
+
+
+Epoch 18:
+Mean loss 0.12755056951478447
+Epoch time ~5.0 minutes
+
+
+Epoch 19:
+Mean loss 0.12790112995097172
+Epoch time ~5.0 minutes
+
+
+Epoch 20:
+Mean loss 0.12497007127081894
+Epoch time ~5.0 minutes
+
+Training finished. Time ~2.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/blindness/inceptionV3_vib_1e-09.pth
+##################################################################
+BETA = 1e-08
+##################################################################
+
+Epoch 1:
+Mean loss 0.3782749551970957
+Epoch time ~5.0 minutes
+
+
+Epoch 2:
+Mean loss 0.2335534056625835
+Epoch time ~5.0 minutes
+
+
+Epoch 3:
+Mean loss 0.16341157664504388
+Epoch time ~5.0 minutes
+
+
+Epoch 4:
+Mean loss 0.15377536182210821
+Epoch time ~5.0 minutes
+
+
+Epoch 5:
+Mean loss 0.15035933327010792
+Epoch time ~5.0 minutes
+
+
+Epoch 6:
+Mean loss 0.12493767792298256
+Epoch time ~5.0 minutes
+
+
+Epoch 7:
+Mean loss 0.1273144535801333
+Epoch time ~5.0 minutes
+
+
+Epoch 8:
+Mean loss 0.13321354348495926
+Epoch time ~5.0 minutes
+
+
+Epoch 9:
+Mean loss 0.1267280722462127
+Epoch time ~5.0 minutes
+
+
+Epoch 10:
+Mean loss 0.13240704798828
+Epoch time ~5.0 minutes
+
+
+Epoch 11:
+Mean loss 0.13509686799395992
+Epoch time ~5.0 minutes
+
+
+Epoch 12:
+Mean loss 0.1379004376231814
+Epoch time ~5.0 minutes
+
+
+Epoch 13:
+Mean loss 0.14618058828637004
+Epoch time ~5.0 minutes
+
+
+Epoch 14:
+Mean loss 0.11824715799530564
+Epoch time ~5.0 minutes
+
+
+Epoch 15:
+Mean loss 0.12646866766938372
+Epoch time ~5.0 minutes
+
+
+Epoch 16:
+Mean loss 0.12870537628338713
+Epoch time ~5.0 minutes
+
+
+Epoch 17:
+Mean loss 0.1271186601370573
+Epoch time ~5.0 minutes
+
+
+Epoch 18:
+Mean loss 0.11747790851792239
+Epoch time ~5.0 minutes
+
+
+Epoch 19:
+Mean loss 0.13336912672156873
+Epoch time ~5.0 minutes
+
+
+Epoch 20:
+Mean loss 0.12517401253116195
+Epoch time ~5.0 minutes
+
+Training finished. Time ~2.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/blindness/inceptionV3_vib_1e-08.pth
+##################################################################
+BETA = 1e-07
+##################################################################
+
+Epoch 1:
+Mean loss 0.28913943901526457
+Epoch time ~5.0 minutes
+
+
+Epoch 2:
+Mean loss 0.26673629164503404
+Epoch time ~5.0 minutes
+
+
+Epoch 3:
+Mean loss 0.1871311132563278
+Epoch time ~5.0 minutes
+
+
+Epoch 4:
+Mean loss 0.1422610182274619
+Epoch time ~5.0 minutes
+
+
+Epoch 5:
+Mean loss 0.13296867169075363
+Epoch time ~5.0 minutes
+
+
+Epoch 6:
+Mean loss 0.14936528958218254
+Epoch time ~5.0 minutes
+
+
+Epoch 7:
+Mean loss 0.14224782284430187
+Epoch time ~5.0 minutes
+
+
+Epoch 8:
+Mean loss 0.1398767622126995
+Epoch time ~5.0 minutes
+
+
+Epoch 9:
+Mean loss 0.1366789840242785
+Epoch time ~5.0 minutes
+
+
+Epoch 10:
+Mean loss 0.13268185939396854
+Epoch time ~5.0 minutes
+
+
+Epoch 11:
+Mean loss 0.15436184236212916
+Epoch time ~5.0 minutes
+
+
+Epoch 12:
+Mean loss 0.13262264843544233
+Epoch time ~5.0 minutes
+
+
+Epoch 13:
+Mean loss 0.12883118570417815
+Epoch time ~5.0 minutes
+
+
+Epoch 14:
+Mean loss 0.13400826704404925
+Epoch time ~5.0 minutes
+
+
+Epoch 15:
+Mean loss 0.136512685486156
+Epoch time ~5.0 minutes
+
+
+Epoch 16:
+Mean loss 0.13416736533500903
+Epoch time ~5.0 minutes
+
+
+Epoch 17:
+Mean loss 0.12361258687451482
+Epoch time ~5.0 minutes
+
+
+Epoch 18:
+Mean loss 0.12232739584641936
+Epoch time ~5.0 minutes
+
+
+Epoch 19:
+Mean loss 0.13656937588087242
+Epoch time ~5.0 minutes
+
+
+Epoch 20:
+Mean loss 0.13781381675811566
+Epoch time ~5.0 minutes
+
+Training finished. Time ~2.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/blindness/inceptionV3_vib_1e-07.pth
+##################################################################
+BETA = 1e-06
+##################################################################
+
+Epoch 1:
+Mean loss 0.31713286033861904
+Epoch time ~5.0 minutes
+
+
+Epoch 2:
+Mean loss 0.208757811833335
+Epoch time ~5.0 minutes
+
+
+Epoch 3:
+Mean loss 0.16172678537828766
+Epoch time ~5.0 minutes
+
+
+Epoch 4:
+Mean loss 0.1539338503802276
+Epoch time ~5.0 minutes
+
+
+Epoch 5:
+Mean loss 0.13738184049725533
+Epoch time ~5.0 minutes
+
+
+Epoch 6:
+Mean loss 0.13318068800372598
+Epoch time ~5.0 minutes
+
+
+Epoch 7:
+Mean loss 0.14398800636358236
+Epoch time ~5.0 minutes
+
+
+Epoch 8:
+Mean loss 0.12731343390339095
+Epoch time ~5.0 minutes
+
+
+Epoch 9:
+Mean loss 0.1355276179358201
+Epoch time ~5.0 minutes
+
+
+Epoch 10:
+Mean loss 0.13065867779938423
+Epoch time ~5.0 minutes
+
+
+Epoch 11:
+Mean loss 0.1364732754578733
+Epoch time ~5.0 minutes
+
+
+Epoch 12:
+Mean loss 0.13717103498461453
+Epoch time ~5.0 minutes
+
+
+Epoch 13:
+Mean loss 0.13342502309292878
+Epoch time ~5.0 minutes
+
+
+Epoch 14:
+Mean loss 0.12865661993703764
+Epoch time ~6.0 minutes
+
+
+Epoch 15:
+Mean loss 0.12284752367185833
+Epoch time ~5.0 minutes
+
+
+Epoch 16:
+Mean loss 0.12208642401611028
+Epoch time ~5.0 minutes
+
+
+Epoch 17:
+Mean loss 0.1295670791245673
+Epoch time ~5.0 minutes
+
+
+Epoch 18:
+Mean loss 0.13438500712990112
+Epoch time ~5.0 minutes
+
+
+Epoch 19:
+Mean loss 0.12486765898116257
+Epoch time ~5.0 minutes
+
+
+Epoch 20:
+Mean loss 0.12547084947278642
+Epoch time ~5.0 minutes
+
+Training finished. Time ~2.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/blindness/inceptionV3_vib_1e-06.pth
+##################################################################
+BETA = 1e-05
+##################################################################
+/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/inception.py:81: FutureWarning: The default weight initialization of inception_v3 will be changed in future releases of torchvision. If you wish to keep the old behavior (which leads to long initialization times due to scipy/scipy#11299), please set init_weights=True.
+  warnings.warn('The default weight initialization of inception_v3 will be changed in future releases of '
+
+Epoch 1:
+Mean loss 0.3002885161488097
+Epoch time ~5.0 minutes
+
+
+Epoch 2:
+Mean loss 0.22339840778453357
+Epoch time ~5.0 minutes
+
+
+Epoch 3:
+Mean loss 0.16877158035767142
+Epoch time ~5.0 minutes
+
+
+Epoch 4:
+Mean loss 0.1403295368452192
+Epoch time ~5.0 minutes
+
+
+Epoch 5:
+Mean loss 0.15051600174047053
+Epoch time ~5.0 minutes
+
+
+Epoch 6:
+Mean loss 0.13698383089175206
+Epoch time ~5.0 minutes
+
+
+Epoch 7:
+Mean loss 0.13273687219328206
+Epoch time ~5.0 minutes
+
+
+Epoch 8:
+Mean loss 0.13694583360389198
+Epoch time ~5.0 minutes
+
+
+Epoch 9:
+Mean loss 0.13271653075176087
+Epoch time ~5.0 minutes
+
+
+Epoch 10:
+Mean loss 0.12485552224857004
+Epoch time ~5.0 minutes
+
+
+Epoch 11:
+Mean loss 0.12071849872439128
+Epoch time ~5.0 minutes
+
+
+Epoch 12:
+Mean loss 0.13031008269678315
+Epoch time ~5.0 minutes
+
+
+Epoch 13:
+Mean loss 0.12535256963304203
+Epoch time ~5.0 minutes
+
+
+Epoch 14:
+Mean loss 0.1447255407338557
+Epoch time ~5.0 minutes
+
+
+Epoch 15:
+Mean loss 0.11733558164585543
+Epoch time ~5.0 minutes
+
+
+Epoch 16:
+Mean loss 0.1207107271614444
+Epoch time ~5.0 minutes
+
+
+Epoch 17:
+Mean loss 0.13083812173293985
+Epoch time ~5.0 minutes
+
+
+Epoch 18:
+Mean loss 0.12306755762952178
+Epoch time ~5.0 minutes
+
+
+Epoch 19:
+Mean loss 0.12959637231719884
+Epoch time ~6.0 minutes
+
+
+Epoch 20:
+Mean loss 0.11990110288657573
+Epoch time ~5.0 minutes
+
+Training finished. Time ~2.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/blindness/inceptionV3_vib_1e-05.pth
+##################################################################
+BETA = 0.0001
+##################################################################
+
+Epoch 1:
+Mean loss 0.2868295699413663
+Epoch time ~5.0 minutes
+
+
+Epoch 2:
+Mean loss 0.22217480866137243
+Epoch time ~5.0 minutes
+
+
+Epoch 3:
+Mean loss 0.17716855946017188
+Epoch time ~5.0 minutes
+
+
+Epoch 4:
+Mean loss 0.13931639983480715
+Epoch time ~5.0 minutes
+
+
+Epoch 5:
+Mean loss 0.16682408337035906
+Epoch time ~5.0 minutes
+
+
+Epoch 6:
+Mean loss 0.14865311326297082
+Epoch time ~5.0 minutes
+
+
+Epoch 7:
+Mean loss 0.12651361618191004
+Epoch time ~5.0 minutes
+
+
+Epoch 8:
+Mean loss 0.13084231987190637
+Epoch time ~5.0 minutes
+
+
+Epoch 9:
+Mean loss 0.12398408080005775
+Epoch time ~5.0 minutes
+
+
+Epoch 10:
+Mean loss 0.12829255484773414
+Epoch time ~5.0 minutes
+
+
+Epoch 11:
+Mean loss 0.13965228357878717
+Epoch time ~5.0 minutes
+
+
+Epoch 12:
+Mean loss 0.13200848620465916
+Epoch time ~5.0 minutes
+
+
+Epoch 13:
+Mean loss 0.1314509196571358
+Epoch time ~5.0 minutes
+
+
+Epoch 14:
+Mean loss 0.11934821320819142
+Epoch time ~5.0 minutes
+
+
+Epoch 15:
+Mean loss 0.12453918464724785
+Epoch time ~5.0 minutes
+
+
+Epoch 16:
+Mean loss 0.13410107275147154
+Epoch time ~5.0 minutes
+
+
+Epoch 17:
+Mean loss 0.12767979802320834
+Epoch time ~5.0 minutes
+
+
+Epoch 18:
+Mean loss 0.13382548191989568
+Epoch time ~5.0 minutes
+
+
+Epoch 19:
+Mean loss 0.12032907976485464
+Epoch time ~5.0 minutes
+
+
+Epoch 20:
+Mean loss 0.11912452409286862
+Epoch time ~5.0 minutes
+
+Training finished. Time ~2.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/blindness/inceptionV3_vib_0.0001.pth
+##################################################################
+BETA = 0.001
+##################################################################
+
+Epoch 1:
+Mean loss 0.40693676527387096
+Epoch time ~5.0 minutes
+
+
+Epoch 2:
+Mean loss 0.22380115398529754
+Epoch time ~5.0 minutes
+
+
+Epoch 3:
+Mean loss 0.20175919330010758
+Epoch time ~5.0 minutes
+
+
+Epoch 4:
+Mean loss 0.2456282036297995
+Epoch time ~5.0 minutes
+
+
+Epoch 5:
+Mean loss 0.14554660218646345
+Epoch time ~5.0 minutes
+
+
+Epoch 6:
+Mean loss 0.13731444599714293
+Epoch time ~5.0 minutes
+
+
+Epoch 7:
+Mean loss 0.13409635250497123
+Epoch time ~5.0 minutes
+
+
+Epoch 8:
+Mean loss 0.1316924092116887
+Epoch time ~5.0 minutes
+
+
+Epoch 9:
+Mean loss 0.1258164705182223
+Epoch time ~5.0 minutes
+
+
+Epoch 10:
+Mean loss 0.14098215311684686
+Epoch time ~5.0 minutes
+
+
+Epoch 11:
+Mean loss 0.13951158479018055
+Epoch time ~5.0 minutes
+
+
+Epoch 12:
+Mean loss 0.13622028953598245
+Epoch time ~5.0 minutes
+
+
+Epoch 13:
+Mean loss 0.131581483165855
+Epoch time ~5.0 minutes
+
+
+Epoch 14:
+Mean loss 0.13751696908603545
+Epoch time ~5.0 minutes
+
+
+Epoch 15:
+Mean loss 0.12880351272938045
+Epoch time ~5.0 minutes
+
+
+Epoch 16:
+Mean loss 0.13439024274196962
+Epoch time ~5.0 minutes
+
+
+Epoch 17:
+Mean loss 0.13097481891188933
+Epoch time ~5.0 minutes
+
+
+Epoch 18:
+Mean loss 0.1299406006000936
+Epoch time ~5.0 minutes
+
+
+Epoch 19:
+Mean loss 0.12276456800653883
+Epoch time ~5.0 minutes
+
+
+Epoch 20:
+Mean loss 0.1271893405355513
+Epoch time ~5.0 minutes
+
+Training finished. Time ~2.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/blindness/inceptionV3_vib_0.001.pth
+##################################################################
+BETA = 0.01
+##################################################################
+
+Epoch 1:
+Mean loss 0.3877139867323896
+Epoch time ~5.0 minutes
+
+
+Epoch 2:
+Mean loss 0.29244357934626547
+Epoch time ~5.0 minutes
+
+
+Epoch 3:
+Mean loss 0.1862198201858479
+Epoch time ~5.0 minutes
+
+
+Epoch 4:
+Mean loss 0.1759432792339636
+Epoch time ~5.0 minutes
+
+
+Epoch 5:
+Mean loss 0.19159617667774792
+Epoch time ~5.0 minutes
+
+
+Epoch 6:
+Mean loss 0.15323697731060826
+Epoch time ~5.0 minutes
+
+
+Epoch 7:
+Mean loss 0.16178792480217374
+Epoch time ~5.0 minutes
+
+
+Epoch 8:
+Mean loss 0.15803355717545617
+Epoch time ~5.0 minutes
+
+
+Epoch 9:
+Mean loss 0.1487499280306308
+Epoch time ~5.0 minutes
+
+
+Epoch 10:
+Mean loss 0.1557063750072342
+Epoch time ~5.0 minutes
+
+
+Epoch 11:
+Mean loss 0.14986793429631254
+Epoch time ~5.0 minutes
+
+
+Epoch 12:
+Mean loss 0.14647010389877402
+Epoch time ~5.0 minutes
+
+
+Epoch 13:
+Mean loss 0.14683069432478235
+Epoch time ~5.0 minutes
+
+
+Epoch 14:
+Mean loss 0.14306248769002117
+Epoch time ~5.0 minutes
+
+
+Epoch 15:
+Mean loss 0.13865189197594704
+Epoch time ~5.0 minutes
+
+
+Epoch 16:
+Mean loss 0.13803403719287852
+Epoch time ~5.0 minutes
+
+
+Epoch 17:
+Mean loss 0.14636033992080585
+Epoch time ~5.0 minutes
+
+
+Epoch 18:
+Mean loss 0.15176671650260687
+Epoch time ~5.0 minutes
+
+
+Epoch 19:
+Mean loss 0.14066533108606286
+Epoch time ~5.0 minutes
+
+
+Epoch 20:
+Mean loss 0.14286338380011526
+Epoch time ~5.0 minutes
+
+Training finished. Time ~2.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/blindness/inceptionV3_vib_0.01.pth
+##################################################################
+BETA = 0.1
+##################################################################
+
+Epoch 1:
+Mean loss 0.48929365716226725
+Epoch time ~5.0 minutes
+
+
+Epoch 2:
+Mean loss 0.3434535281975632
+Epoch time ~5.0 minutes
+
+
+Epoch 3:
+Mean loss 0.23571522226152214
+Epoch time ~5.0 minutes
+
+
+Epoch 4:
+Mean loss 0.21359252306106297
+Epoch time ~5.0 minutes
+
+
+Epoch 5:
+Mean loss 0.21063950390595457
+Epoch time ~5.0 minutes
+
+
+Epoch 6:
+Mean loss 0.2240877191171698
+Epoch time ~5.0 minutes
+
+
+Epoch 7:
+Mean loss 0.186354608234504
+Epoch time ~5.0 minutes
+
+
+Epoch 8:
+Mean loss 0.21601532804577248
+Epoch time ~5.0 minutes
+
+
+Epoch 9:
+Mean loss 0.19688432768959066
+Epoch time ~5.0 minutes
+
+
+Epoch 10:
+Mean loss 0.20452824526506921
+Epoch time ~5.0 minutes
+
+
+Epoch 11:
+Mean loss 0.20148514575608398
+Epoch time ~5.0 minutes
+
+
+Epoch 12:
+Mean loss 0.20108930296871974
+Epoch time ~5.0 minutes
+
+
+Epoch 13:
+Mean loss 0.19405686337014902
+Epoch time ~5.0 minutes
+
+
+Epoch 14:
+Mean loss 0.19357964752808862
+Epoch time ~5.0 minutes
+
+
+Epoch 15:
+Mean loss 0.19245461722754914
+Epoch time ~5.0 minutes
+
+
+Epoch 16:
+Mean loss 0.19491789149849312
+Epoch time ~5.0 minutes
+
+
+Epoch 17:
+Mean loss 0.17402995151022208
+Epoch time ~5.0 minutes
+
+
+Epoch 18:
+Mean loss 0.1970578125151603
+Epoch time ~5.0 minutes
+
+
+Epoch 19:
+Mean loss 0.1896404802556271
+Epoch time ~5.0 minutes
+
+
+Epoch 20:
+Mean loss 0.1786077581346035
+Epoch time ~5.0 minutes
+
+Training finished. Time ~2.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/blindness/inceptionV3_vib_0.1.pth

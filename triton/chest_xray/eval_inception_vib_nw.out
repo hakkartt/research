@@ -1,0 +1,39 @@
+/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/inception.py:81: FutureWarning: The default weight initialization of inception_v3 will be changed in future releases of torchvision. If you wish to keep the old behavior (which leads to long initialization times due to scipy/scipy#11299), please set init_weights=True.
+  warnings.warn('The default weight initialization of inception_v3 will be changed in future releases of '
+File path is /scratch/work/hakkina7/chest_xray/
+Device is cuda
+Pre-trained base model succesfully loaded from /scratch/work/hakkina7/chest_xray/inceptionV3_nonweighted.pth
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/inceptionV3_vib_nw.pth
+Evaluating the inceptionV3_vib_nw.pth model on the test set.
+
+##################################################################
+No attack
+Computing took ~0 minutes.
+
+Classified 52.85 % of test images correctly.
+##################################################################
+
+Precision on test set: 0.74
+Recall on test set: 0.55
+F1-score on test set: 0.63
+AUC score on test set: 0.52
+Confusion matrix on test set:
+                pred as NEG  pred as POS
+true class NEG          111          126
+true class POS          288          353
+
+Traceback (most recent call last):
+  File "eval_inception_vib_nw.py", line 267, in <module>
+    evaluate(model, testloader, device, fname_vib, adv='FGM')
+  File "eval_inception_vib_nw.py", line 119, in evaluate
+    adv_images = FGM(model, images, eps=eps, norm=np.inf)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/cleverhans/torch/attacks/fast_gradient_method.py", line 77, in fast_gradient_method
+    _, y = torch.max(model_fn(x), 1)
+TypeError: max() received an invalid combination of arguments - got (tuple, int), but expected one of:
+ * (Tensor input)
+ * (Tensor input, Tensor other, *, Tensor out)
+ * (Tensor input, int dim, bool keepdim, *, tuple of Tensors out)
+ * (Tensor input, name dim, bool keepdim, *, tuple of Tensors out)
+
+srun: error: gpu14: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=65975054.0

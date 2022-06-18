@@ -1,0 +1,20 @@
+File path is /scratch/work/hakkina7/chest_xray/
+Device is cpu
+Model succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_nonweighted.pth
+Evaluating the ResNet50 model on the test set.
+
+Classified 95.79 % of test images correctly.
+Precision on test set: 0.96
+Recall on test set: 0.99
+F1-score on test set: 0.97
+AUC score on test set: 0.98
+Confusion matrix on test set:
+                pred as NEG  pred as POS
+true class NEG          209           28
+true class POS            9          632
+
+
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)

@@ -1,0 +1,1537 @@
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+File path is /scratch/work/hakkina7/chest_xray/
+Device is cuda
+Training ResNet50 model for Chest X-ray Pneumonia classification task.
+
+Epoch 1:
+Mean loss 0.5356335027688215 - Correctly labeled training images 76.09%
+Classified 78.91 % of validation images correctly.
+Precision on validation set: 0.79
+Recall on validation set: 0.97
+F1-score on validation set: 0.87
+AUC score on validation set: 0.79
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           24           56
+true class POS            6          208
+
+Current validation loss: 0.80
+
+Epoch 2:
+Mean loss 0.3923732699180136 - Correctly labeled training images 84.07%
+Classified 77.89 % of validation images correctly.
+Precision on validation set: 0.77
+Recall on validation set: 0.99
+F1-score on validation set: 0.87
+AUC score on validation set: 0.89
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           17           63
+true class POS            2          212
+
+Current validation loss: 0.86
+
+Epoch 3:
+Mean loss 0.33990377035676217 - Correctly labeled training images 86.96%
+Classified 91.50 % of validation images correctly.
+Precision on validation set: 0.94
+Recall on validation set: 0.94
+F1-score on validation set: 0.94
+AUC score on validation set: 0.95
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           67           13
+true class POS           12          202
+
+Current validation loss: 0.25
+
+Epoch 4:
+Mean loss 0.23352681386734353 - Correctly labeled training images 90.86%
+Classified 82.31 % of validation images correctly.
+Precision on validation set: 0.81
+Recall on validation set: 0.99
+F1-score on validation set: 0.89
+AUC score on validation set: 0.95
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           30           50
+true class POS            2          212
+
+Current validation loss: 0.43
+
+Epoch 5:
+Mean loss 0.3012231995357948 - Correctly labeled training images 89.75%
+Classified 90.82 % of validation images correctly.
+Precision on validation set: 0.91
+Recall on validation set: 0.97
+F1-score on validation set: 0.94
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           60           20
+true class POS            7          207
+
+Current validation loss: 0.26
+
+Epoch 6:
+Mean loss 0.20744503933784306 - Correctly labeled training images 92.16%
+Classified 88.44 % of validation images correctly.
+Precision on validation set: 0.88
+Recall on validation set: 0.98
+F1-score on validation set: 0.93
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           50           30
+true class POS            4          210
+
+Current validation loss: 0.28
+
+Epoch 7:
+Mean loss 0.2025379269782986 - Correctly labeled training images 91.76%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           11          203
+
+Current validation loss: 0.17
+
+Epoch 8:
+Mean loss 0.17225709084902896 - Correctly labeled training images 93.47%
+Classified 93.20 % of validation images correctly.
+Precision on validation set: 0.94
+Recall on validation set: 0.97
+F1-score on validation set: 0.95
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           67           13
+true class POS            7          207
+
+Current validation loss: 0.17
+
+Epoch 9:
+Mean loss 0.15084202880305903 - Correctly labeled training images 94.15%
+Classified 90.82 % of validation images correctly.
+Precision on validation set: 0.92
+Recall on validation set: 0.96
+F1-score on validation set: 0.94
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           62           18
+true class POS            9          205
+
+Current validation loss: 0.22
+
+Epoch 10:
+Mean loss 0.13495756041410625 - Correctly labeled training images 94.98%
+Classified 91.84 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.91
+F1-score on validation set: 0.94
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           20          194
+
+Current validation loss: 0.31
+
+Epoch 11:
+Mean loss 0.14403253838381902 - Correctly labeled training images 94.94%
+Classified 85.03 % of validation images correctly.
+Precision on validation set: 1.00
+Recall on validation set: 0.79
+F1-score on validation set: 0.89
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           80            0
+true class POS           44          170
+
+Current validation loss: 0.52
+
+Epoch 12:
+Mean loss 0.17392482856275882 - Correctly labeled training images 94.17%
+Classified 89.80 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.88
+F1-score on validation set: 0.93
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           26          188
+
+Current validation loss: 0.48
+
+Epoch 13:
+Mean loss 0.15674514584813495 - Correctly labeled training images 94.85%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.95
+Recall on validation set: 0.96
+F1-score on validation set: 0.96
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           70           10
+true class POS            9          205
+
+Current validation loss: 0.20
+
+Epoch 14:
+Mean loss 0.11458203739797075 - Correctly labeled training images 95.90%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.96
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+true class POS            8          206
+
+Current validation loss: 0.20
+
+Epoch 15:
+Mean loss 0.10861421766260095 - Correctly labeled training images 96.03%
+Classified 93.20 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.95
+F1-score on validation set: 0.95
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           71            9
+true class POS           11          203
+
+Current validation loss: 0.24
+
+Epoch 16:
+Mean loss 0.10507480608818888 - Correctly labeled training images 96.26%
+Classified 90.82 % of validation images correctly.
+Precision on validation set: 0.91
+Recall on validation set: 0.97
+F1-score on validation set: 0.94
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           60           20
+true class POS            7          207
+
+Current validation loss: 0.24
+
+Epoch 17:
+Mean loss 0.1152137213522809 - Correctly labeled training images 96.26%
+Classified 90.82 % of validation images correctly.
+Precision on validation set: 0.92
+Recall on validation set: 0.96
+F1-score on validation set: 0.94
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           62           18
+true class POS            9          205
+
+Current validation loss: 0.23
+
+Epoch 18:
+Mean loss 0.089440928045882 - Correctly labeled training images 96.80%
+Classified 92.86 % of validation images correctly.
+Precision on validation set: 0.94
+Recall on validation set: 0.97
+F1-score on validation set: 0.95
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           66           14
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+true class POS            7          207
+
+Current validation loss: 0.17
+
+Epoch 19:
+Mean loss 0.07434137892706612 - Correctly labeled training images 97.46%
+Classified 92.18 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.91
+F1-score on validation set: 0.94
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           19          195
+
+Current validation loss: 0.23
+
+Epoch 20:
+Mean loss 0.03917611980467059 - Correctly labeled training images 98.68%
+Classified 92.18 % of validation images correctly.
+Precision on validation set: 0.92
+Recall on validation set: 0.98
+F1-score on validation set: 0.95
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           62           18
+true class POS            5          209
+
+Current validation loss: 0.24
+
+Epoch 21:
+Mean loss 0.04445274307536671 - Correctly labeled training images 98.29%
+Classified 87.07 % of validation images correctly.
+Precision on validation set: 0.85
+Recall on validation set: 1.00
+F1-score on validation set: 0.92
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           42           38
+true class POS            0          214
+
+Current validation loss: 0.47
+
+Epoch 22:
+Mean loss 0.0844998900290756 - Correctly labeled training images 96.99%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.93
+F1-score on validation set: 0.95
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           15          199
+
+Current validation loss: 0.29
+
+Epoch 23:
+Mean loss 0.04722192029422782 - Correctly labeled training images 98.21%
+Classified 91.84 % of validation images correctly.
+Precision on validation set: 0.93
+Recall on validation set: 0.96
+F1-score on validation set: 0.94
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           65           15
+true class POS            9          205
+
+Current validation loss: 0.20
+
+Epoch 24:
+Mean loss 0.038185308143721425 - Correctly labeled training images 98.70%
+Classified 87.41 % of validation images correctly.
+Precision on validation set: 0.85
+Recall on validation set: 1.00
+F1-score on validation set: 0.92
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           43           37
+true class POS            0          214
+
+Current validation loss: 0.57
+
+Epoch 25:
+Mean loss 0.037368820904956836 - Correctly labeled training images 98.57%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.94
+F1-score on validation set: 0.95
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           13          201
+
+Current validation loss: 0.26
+
+Epoch 26:
+Mean loss 0.06428962931712871 - Correctly labeled training images 97.69%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.95
+Recall on validation set: 0.98
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           69           11
+true class POS            5          209
+
+Current validation loss: 0.20
+
+Epoch 27:
+Mean loss 0.05505052337907635 - Correctly labeled training images 98.10%
+Classified 92.52 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.93
+F1-score on validation set: 0.95
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           16          198
+
+Current validation loss: 0.24
+
+Epoch 28:
+Mean loss 0.031285550465512714 - Correctly labeled training images 98.83%
+Classified 95.58 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.97
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS            7          207
+
+Current validation loss: 0.20
+
+Epoch 29:
+Mean loss 0.02836563417542097 - Correctly labeled training images 99.06%
+Classified 91.84 % of validation images correctly.
+Precision on validation set: 0.91
+Recall on validation set: 0.99
+F1-score on validation set: 0.95
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           59           21
+true class POS            3          211
+
+Current validation loss: 0.32
+
+Epoch 30:
+Mean loss 0.017919267538648264 - Correctly labeled training images 99.34%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           14          200
+
+Current validation loss: 0.25
+
+Epoch 31:
+Mean loss 0.029169348130677945 - Correctly labeled training images 99.02%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           13          201
+
+Current validation loss: 0.24
+
+Epoch 32:
+Mean loss 0.033534301982442796 - Correctly labeled training images 98.87%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           15          199
+
+Current validation loss: 0.26
+
+Epoch 33:
+Mean loss 0.02985540397976427 - Correctly labeled training images 98.83%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.93
+Recall on validation set: 0.99
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           64           16
+true class POS            3          211
+
+Current validation loss: 0.27
+
+Epoch 34:
+Mean loss 0.032805335310457644 - Correctly labeled training images 98.98%
+Classified 91.16 % of validation images correctly.
+Precision on validation set: 0.89
+Recall on validation set: 1.00
+F1-score on validation set: 0.94
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           55           25
+true class POS            1          213
+
+Current validation loss: 0.38
+
+Epoch 35:
+Mean loss 0.01497513935573559 - Correctly labeled training images 99.49%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.94
+Recall on validation set: 0.98
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           67           13
+true class POS            5          209
+
+Current validation loss: 0.23
+
+Epoch 36:
+Mean loss 0.016190026112478034 - Correctly labeled training images 99.53%
+Classified 92.52 % of validation images correctly.
+Precision on validation set: 0.91
+Recall on validation set: 0.99
+F1-score on validation set: 0.95
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           60           20
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+true class POS            2          212
+
+Current validation loss: 0.29
+
+Epoch 37:
+Mean loss 0.029961080570179783 - Correctly labeled training images 98.95%
+Classified 91.84 % of validation images correctly.
+Precision on validation set: 0.94
+Recall on validation set: 0.94
+F1-score on validation set: 0.94
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           68           12
+true class POS           12          202
+
+Current validation loss: 0.28
+
+Epoch 38:
+Mean loss 0.019659824735067468 - Correctly labeled training images 99.34%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           11          203
+
+Current validation loss: 0.19
+
+Epoch 39:
+Mean loss 0.023055921354257623 - Correctly labeled training images 99.15%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           10          204
+
+Current validation loss: 0.23
+
+Epoch 40:
+Mean loss 0.021592995876552883 - Correctly labeled training images 99.27%
+Classified 93.20 % of validation images correctly.
+Precision on validation set: 0.94
+Recall on validation set: 0.97
+F1-score on validation set: 0.95
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           67           13
+true class POS            7          207
+
+Current validation loss: 0.19
+
+Epoch 41:
+Mean loss 0.02631728405114799 - Correctly labeled training images 99.00%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.94
+Recall on validation set: 0.97
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           67           13
+true class POS            6          208
+
+Current validation loss: 0.19
+
+Epoch 42:
+Mean loss 0.021472252477200974 - Correctly labeled training images 99.36%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.97
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           71            9
+true class POS            7          207
+
+Current validation loss: 0.20
+
+Epoch 43:
+Mean loss 0.022763763638785454 - Correctly labeled training images 99.21%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           79            1
+true class POS           15          199
+
+Current validation loss: 0.34
+
+Epoch 44:
+Mean loss 0.01591674989815926 - Correctly labeled training images 99.49%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           14          200
+
+Current validation loss: 0.23
+
+Epoch 45:
+Mean loss 0.012740249130803597 - Correctly labeled training images 99.53%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           78            2
+true class POS           14          200
+
+Current validation loss: 0.27
+
+Epoch 46:
+Mean loss 0.01006981104228853 - Correctly labeled training images 99.77%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           11          203
+
+Current validation loss: 0.17
+
+Epoch 47:
+Mean loss 0.01759634480219952 - Correctly labeled training images 99.34%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           10          204
+
+Current validation loss: 0.25
+
+Epoch 48:
+Mean loss 0.009694054068630338 - Correctly labeled training images 99.72%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+true class POS           11          203
+
+Current validation loss: 0.22
+
+Epoch 49:
+Mean loss 0.032368416745899894 - Correctly labeled training images 99.00%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           10          204
+
+Current validation loss: 0.21
+
+Epoch 50:
+Mean loss 0.0169040658082274 - Correctly labeled training images 99.40%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           14          200
+
+Current validation loss: 0.28
+
+Epoch 51:
+Mean loss 0.02127349342201193 - Correctly labeled training images 99.21%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.94
+Recall on validation set: 0.98
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           67           13
+true class POS            5          209
+
+Current validation loss: 0.22
+
+Epoch 52:
+Mean loss 0.01393880068864907 - Correctly labeled training images 99.53%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           12          202
+
+Current validation loss: 0.22
+
+Epoch 53:
+Mean loss 0.005698052166215868 - Correctly labeled training images 99.77%
+Classified 95.92 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS            8          206
+
+Current validation loss: 0.16
+
+Epoch 54:
+Mean loss 0.004186623804733764 - Correctly labeled training images 99.83%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.96
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+true class POS            9          205
+
+Current validation loss: 0.21
+
+Epoch 55:
+Mean loss 0.009070239467025643 - Correctly labeled training images 99.85%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.95
+Recall on validation set: 0.98
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           70           10
+true class POS            5          209
+
+Current validation loss: 0.22
+
+Epoch 56:
+Mean loss 0.02360911084815598 - Correctly labeled training images 99.23%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.96
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS            9          205
+
+Current validation loss: 0.20
+
+Epoch 57:
+Mean loss 0.014438921883745836 - Correctly labeled training images 99.47%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           12          202
+
+Current validation loss: 0.21
+
+Epoch 58:
+Mean loss 0.012265145583120833 - Correctly labeled training images 99.66%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.95
+Recall on validation set: 0.98
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           70           10
+true class POS            5          209
+
+Current validation loss: 0.15
+
+Epoch 59:
+Mean loss 0.013139772037599565 - Correctly labeled training images 99.59%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           11          203
+
+Current validation loss: 0.21
+
+Epoch 60:
+Mean loss 0.003599756105510702 - Correctly labeled training images 99.89%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS            8          206
+
+Current validation loss: 0.21
+
+Epoch 61:
+Mean loss 0.00820312856729065 - Correctly labeled training images 99.72%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.94
+Recall on validation set: 0.98
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           66           14
+true class POS            4          210
+
+Current validation loss: 0.24
+
+Epoch 62:
+Mean loss 0.0034835202625298715 - Correctly labeled training images 99.94%
+Classified 95.58 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS            9          205
+
+Current validation loss: 0.19
+
+Epoch 63:
+Mean loss 0.005464028903223734 - Correctly labeled training images 99.85%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.96
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+true class POS            9          205
+
+Current validation loss: 0.24
+
+Epoch 64:
+Mean loss 0.004882596832197303 - Correctly labeled training images 99.81%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.96
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           72            8
+true class POS            9          205
+
+Current validation loss: 0.20
+
+Epoch 65:
+Mean loss 0.002480339679442252 - Correctly labeled training images 99.98%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+true class POS           10          204
+
+Current validation loss: 0.21
+
+Epoch 66:
+Mean loss 0.002247130960337345 - Correctly labeled training images 99.94%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           13          201
+
+Current validation loss: 0.25
+
+Epoch 67:
+Mean loss 0.0021664763996780485 - Correctly labeled training images 99.94%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           15          199
+
+Current validation loss: 0.29
+
+Epoch 68:
+Mean loss 0.004336172174343657 - Correctly labeled training images 99.87%
+Classified 95.58 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS            8          206
+
+Current validation loss: 0.20
+
+Epoch 69:
+Mean loss 0.011343644313457572 - Correctly labeled training images 99.79%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           79            1
+true class POS           15          199
+
+Current validation loss: 0.31
+
+Epoch 70:
+Mean loss 0.017224462334840554 - Correctly labeled training images 99.27%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.93
+Recall on validation set: 0.99
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           65           15
+true class POS            3          211
+
+Current validation loss: 0.20
+
+Epoch 71:
+Mean loss 0.0032413406223536587 - Correctly labeled training images 99.89%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           10          204
+
+Current validation loss: 0.17
+
+Epoch 72:
+Mean loss 0.0012523042678336412 - Correctly labeled training images 99.98%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.95
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)
+No handles with labels found to put in legend.
+true class POS           11          203
+
+Current validation loss: 0.18
+
+Epoch 73:
+Mean loss 0.0014199340657013663 - Correctly labeled training images 99.96%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           11          203
+
+Current validation loss: 0.21
+
+Epoch 74:
+Mean loss 0.0006355283386750095 - Correctly labeled training images 100.00%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           12          202
+
+Current validation loss: 0.17
+
+Epoch 75:
+Mean loss 0.005453153653623606 - Correctly labeled training images 99.77%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           13          201
+
+Current validation loss: 0.32
+
+Epoch 76:
+Mean loss 0.003442118980552275 - Correctly labeled training images 99.91%
+Classified 91.84 % of validation images correctly.
+Precision on validation set: 0.93
+Recall on validation set: 0.96
+F1-score on validation set: 0.94
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           65           15
+true class POS            9          205
+
+Current validation loss: 0.29
+
+Epoch 77:
+Mean loss 0.0030387540151387733 - Correctly labeled training images 99.89%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           72            8
+true class POS           11          203
+
+Current validation loss: 0.24
+
+Epoch 78:
+Mean loss 0.01053189452359166 - Correctly labeled training images 99.68%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           12          202
+
+Current validation loss: 0.27
+
+Epoch 79:
+Mean loss 0.0013908422228132544 - Correctly labeled training images 99.98%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           12          202
+
+Current validation loss: 0.25
+
+Epoch 80:
+Mean loss 0.0025910378867252666 - Correctly labeled training images 99.87%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.93
+F1-score on validation set: 0.95
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           16          198
+
+Current validation loss: 0.36
+
+Epoch 81:
+Mean loss 0.004335900623011005 - Correctly labeled training images 99.81%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.96
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           72            8
+true class POS            8          206
+
+Current validation loss: 0.22
+
+Epoch 82:
+Mean loss 0.004214043297657727 - Correctly labeled training images 99.83%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           72            8
+true class POS           10          204
+
+Current validation loss: 0.24
+
+Epoch 83:
+Mean loss 0.0021220077504629405 - Correctly labeled training images 99.87%
+Classified 93.20 % of validation images correctly.
+Precision on validation set: 0.94
+Recall on validation set: 0.97
+F1-score on validation set: 0.95
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           67           13
+true class POS            7          207
+
+Current validation loss: 0.25
+
+Epoch 84:
+Mean loss 0.002838213128906578 - Correctly labeled training images 99.89%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.96
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS            9          205
+
+Current validation loss: 0.24
+
+Epoch 85:
+Mean loss 0.006736737136138738 - Correctly labeled training images 99.77%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.96
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           72            8
+true class POS            9          205
+
+Current validation loss: 0.25
+Early stopping!
+Training finished. Time >131.0 minutes.
+Model succesfully saved to /scratch/work/hakkina7/chest_xray/resnet50_nonweighted.pth

@@ -1,0 +1,2810 @@
+File path is /scratch/work/hakkina7/chest_xray/
+Device is cuda
+Training InceptionV3 model for Chest X-ray Pneumonia classification task.
+Since there is class imbalance present in some of the data sets, use the following weights in the loss function:
+tensor([3.6998, 1.3704], device='cuda:0')
+
+
+Epoch 1:
+Mean loss 0.6179956451159756 - Correctly labeled training images 70.56%
+Classified 43.88 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.24
+F1-score on validation set: 0.38
+AUC score on validation set: 0.80
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           78            2
+true class POS          163           51
+
+Current validation loss: 0.945
+
+Epoch 2:
+Mean loss 0.5254764846798514 - Correctly labeled training images 79.36%
+Classified 68.03 % of validation images correctly.
+Precision on validation set: 0.95
+Recall on validation set: 0.59
+F1-score on validation set: 0.73
+AUC score on validation set: 0.81
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           88          126
+
+Current validation loss: 0.801
+
+Epoch 3:
+Mean loss 0.4628616101076814 - Correctly labeled training images 82.02%
+Classified 41.16 % of validation images correctly.
+Precision on validation set: 1.00
+Recall on validation set: 0.19
+F1-score on validation set: 0.32
+AUC score on validation set: 0.82
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           80            0
+true class POS          173           41
+
+Current validation loss: 1.401
+
+Epoch 4:
+Mean loss 0.42632657694978776 - Correctly labeled training images 83.84%
+Classified 72.79 % of validation images correctly.
+Precision on validation set: 0.95
+Recall on validation set: 0.66
+F1-score on validation set: 0.78
+AUC score on validation set: 0.87
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+true class POS           73          141
+
+Current validation loss: 0.641
+
+Epoch 5:
+Mean loss 0.40083619161527984 - Correctly labeled training images 83.88%
+Classified 81.29 % of validation images correctly.
+Precision on validation set: 0.93
+Recall on validation set: 0.80
+F1-score on validation set: 0.86
+AUC score on validation set: 0.89
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           68           12
+true class POS           43          171
+
+Current validation loss: 0.458
+
+Epoch 6:
+Mean loss 0.38902194281013647 - Correctly labeled training images 84.42%
+Classified 82.65 % of validation images correctly.
+Precision on validation set: 0.95
+Recall on validation set: 0.81
+F1-score on validation set: 0.87
+AUC score on validation set: 0.90
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           70           10
+true class POS           41          173
+
+Current validation loss: 0.439
+
+Epoch 7:
+Mean loss 0.3864598114068816 - Correctly labeled training images 84.78%
+Classified 81.63 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.78
+F1-score on validation set: 0.86
+AUC score on validation set: 0.90
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+true class POS           47          167
+
+Current validation loss: 0.472
+
+Epoch 8:
+Mean loss 0.36901803466738486 - Correctly labeled training images 84.99%
+Classified 77.55 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.72
+F1-score on validation set: 0.82
+AUC score on validation set: 0.88
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           60          154
+
+Current validation loss: 0.543
+
+Epoch 9:
+Mean loss 0.35343949060861757 - Correctly labeled training images 85.33%
+Classified 79.59 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.75
+F1-score on validation set: 0.84
+AUC score on validation set: 0.91
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           54          160
+
+Current validation loss: 0.469
+
+Epoch 10:
+Mean loss 0.3439232346151962 - Correctly labeled training images 85.87%
+Classified 80.27 % of validation images correctly.
+Precision on validation set: 0.94
+Recall on validation set: 0.78
+F1-score on validation set: 0.85
+AUC score on validation set: 0.90
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           70           10
+true class POS           48          166
+
+Current validation loss: 0.434
+
+Epoch 11:
+Mean loss 0.3331892646494366 - Correctly labeled training images 85.95%
+Classified 82.31 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.79
+F1-score on validation set: 0.87
+AUC score on validation set: 0.92
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           72            8
+true class POS           44          170
+
+Current validation loss: 0.414
+
+Epoch 12:
+Mean loss 0.34448821204049246 - Correctly labeled training images 85.08%
+Classified 82.99 % of validation images correctly.
+Precision on validation set: 0.91
+Recall on validation set: 0.85
+F1-score on validation set: 0.88
+AUC score on validation set: 0.90
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           63           17
+true class POS           33          181
+
+Current validation loss: 0.380
+
+Epoch 13:
+Mean loss 0.33010591546288964 - Correctly labeled training images 85.99%
+Classified 83.67 % of validation images correctly.
+Precision on validation set: 0.89
+Recall on validation set: 0.89
+F1-score on validation set: 0.89
+AUC score on validation set: 0.90
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           56           24
+true class POS           24          190
+
+Current validation loss: 0.355
+
+Epoch 14:
+Mean loss 0.3332336075654646 - Correctly labeled training images 86.14%
+Classified 82.99 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.80
+F1-score on validation set: 0.87
+AUC score on validation set: 0.92
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+true class POS           43          171
+
+Current validation loss: 0.406
+
+Epoch 15:
+Mean loss 0.32004095857240716 - Correctly labeled training images 86.29%
+Classified 81.29 % of validation images correctly.
+Precision on validation set: 0.95
+Recall on validation set: 0.79
+F1-score on validation set: 0.86
+AUC score on validation set: 0.91
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           71            9
+true class POS           46          168
+
+Current validation loss: 0.435
+
+Epoch 16:
+Mean loss 0.3279968819447926 - Correctly labeled training images 86.21%
+Classified 84.35 % of validation images correctly.
+Precision on validation set: 0.90
+Recall on validation set: 0.89
+F1-score on validation set: 0.89
+AUC score on validation set: 0.91
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           58           22
+true class POS           24          190
+
+Current validation loss: 0.352
+
+Epoch 17:
+Mean loss 0.31533851363018256 - Correctly labeled training images 86.25%
+Classified 27.89 % of validation images correctly.
+Precision on validation set: 1.00
+Recall on validation set: 0.01
+F1-score on validation set: 0.02
+AUC score on validation set: 0.66
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           80            0
+true class POS          212            2
+
+Current validation loss: 2.329
+
+Epoch 18:
+Mean loss 0.30584422514146686 - Correctly labeled training images 87.15%
+Classified 86.73 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.85
+F1-score on validation set: 0.90
+AUC score on validation set: 0.93
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+true class POS           32          182
+
+Current validation loss: 0.346
+
+Epoch 19:
+Mean loss 0.2996813480039032 - Correctly labeled training images 87.70%
+Classified 87.41 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.86
+F1-score on validation set: 0.91
+AUC score on validation set: 0.93
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+true class POS           30          184
+
+Current validation loss: 0.337
+
+Epoch 20:
+Mean loss 0.2891060346040596 - Correctly labeled training images 88.00%
+Classified 87.41 % of validation images correctly.
+Precision on validation set: 0.90
+Recall on validation set: 0.93
+F1-score on validation set: 0.91
+AUC score on validation set: 0.93
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           59           21
+true class POS           16          198
+
+Current validation loss: 0.291
+
+Epoch 21:
+Mean loss 0.27650838000636524 - Correctly labeled training images 88.51%
+Classified 87.07 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.86
+F1-score on validation set: 0.91
+AUC score on validation set: 0.93
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+true class POS           31          183
+
+Current validation loss: 0.339
+
+Epoch 22:
+Mean loss 0.2922200721745588 - Correctly labeled training images 88.04%
+Classified 82.65 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.78
+F1-score on validation set: 0.87
+AUC score on validation set: 0.94
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           47          167
+
+Current validation loss: 0.386
+
+Epoch 23:
+Mean loss 0.2788581115757527 - Correctly labeled training images 88.24%
+Classified 87.76 % of validation images correctly.
+Precision on validation set: 0.95
+Recall on validation set: 0.87
+F1-score on validation set: 0.91
+AUC score on validation set: 0.94
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           71            9
+true class POS           27          187
+
+Current validation loss: 0.302
+
+Epoch 24:
+Mean loss 0.26758240214010487 - Correctly labeled training images 89.01%
+Classified 86.05 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.83
+F1-score on validation set: 0.90
+AUC score on validation set: 0.94
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           36          178
+
+Current validation loss: 0.329
+
+Epoch 25:
+Mean loss 0.27748351934410276 - Correctly labeled training images 88.30%
+Classified 87.07 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.85
+F1-score on validation set: 0.91
+AUC score on validation set: 0.95
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           33          181
+
+Current validation loss: 0.317
+
+Epoch 26:
+Mean loss 0.26533211423020786 - Correctly labeled training images 88.94%
+Classified 85.71 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.84
+F1-score on validation set: 0.90
+AUC score on validation set: 0.94
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+true class POS           35          179
+
+Current validation loss: 0.318
+
+Epoch 27:
+Mean loss 0.26637452085610147 - Correctly labeled training images 89.54%
+Classified 89.12 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.89
+F1-score on validation set: 0.92
+AUC score on validation set: 0.94
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           72            8
+true class POS           24          190
+
+Current validation loss: 0.293
+
+Epoch 28:
+Mean loss 0.2671421603584776 - Correctly labeled training images 88.81%
+Classified 82.99 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.79
+F1-score on validation set: 0.87
+AUC score on validation set: 0.95
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           46          168
+
+Current validation loss: 0.359
+
+Epoch 29:
+Mean loss 0.2721888640401315 - Correctly labeled training images 88.51%
+Classified 88.44 % of validation images correctly.
+Precision on validation set: 0.94
+Recall on validation set: 0.90
+F1-score on validation set: 0.92
+AUC score on validation set: 0.94
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           68           12
+true class POS           22          192
+
+Current validation loss: 0.277
+
+Epoch 30:
+Mean loss 0.27072927142892567 - Correctly labeled training images 88.24%
+Classified 86.39 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.84
+F1-score on validation set: 0.90
+AUC score on validation set: 0.94
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           34          180
+
+Current validation loss: 0.321
+
+Epoch 31:
+Mean loss 0.2731449574130733 - Correctly labeled training images 88.73%
+Classified 88.44 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.88
+F1-score on validation set: 0.92
+AUC score on validation set: 0.94
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           72            8
+true class POS           26          188
+
+Current validation loss: 0.331
+
+Epoch 32:
+Mean loss 0.2682159478161611 - Correctly labeled training images 88.68%
+Classified 89.46 % of validation images correctly.
+Precision on validation set: 0.93
+Recall on validation set: 0.92
+F1-score on validation set: 0.93
+AUC score on validation set: 0.94
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           66           14
+true class POS           17          197
+
+Current validation loss: 0.264
+
+Epoch 33:
+Mean loss 0.25699721043612683 - Correctly labeled training images 89.60%
+Classified 87.07 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.84
+F1-score on validation set: 0.90
+AUC score on validation set: 0.96
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           34          180
+
+Current validation loss: 0.302
+
+Epoch 34:
+Mean loss 0.2657866769907426 - Correctly labeled training images 89.03%
+Classified 87.41 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.86
+F1-score on validation set: 0.91
+AUC score on validation set: 0.93
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           72            8
+true class POS           29          185
+
+Current validation loss: 0.325
+
+Epoch 35:
+Mean loss 0.2644370049238205 - Correctly labeled training images 89.26%
+Classified 88.44 % of validation images correctly.
+Precision on validation set: 0.95
+Recall on validation set: 0.88
+F1-score on validation set: 0.92
+AUC score on validation set: 0.95
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           71            9
+true class POS           25          189
+
+Current validation loss: 0.275
+
+Epoch 36:
+Mean loss 0.2669949915741577 - Correctly labeled training images 89.28%
+Classified 90.48 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.89
+F1-score on validation set: 0.93
+AUC score on validation set: 0.95
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           23          191
+
+Current validation loss: 0.275
+
+Epoch 37:
+Mean loss 0.25826619991234373 - Correctly labeled training images 89.30%
+Classified 84.35 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.80
+F1-score on validation set: 0.88
+AUC score on validation set: 0.96
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           43          171
+
+Current validation loss: 0.360
+
+Epoch 38:
+Mean loss 0.24494067244991966 - Correctly labeled training images 90.54%
+Classified 88.78 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.88
+F1-score on validation set: 0.92
+AUC score on validation set: 0.95
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           72            8
+true class POS           25          189
+
+Current validation loss: 0.282
+
+Epoch 39:
+Mean loss 0.24181749030542213 - Correctly labeled training images 90.52%
+Classified 89.80 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.89
+F1-score on validation set: 0.93
+AUC score on validation set: 0.96
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           24          190
+
+Current validation loss: 0.266
+
+Epoch 40:
+Mean loss 0.24202270603098838 - Correctly labeled training images 90.71%
+Classified 87.76 % of validation images correctly.
+Precision on validation set: 0.89
+Recall on validation set: 0.95
+F1-score on validation set: 0.92
+AUC score on validation set: 0.94
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           54           26
+true class POS           10          204
+
+Current validation loss: 0.283
+
+Epoch 41:
+Mean loss 0.2493391576267424 - Correctly labeled training images 89.80%
+Classified 90.82 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.90
+F1-score on validation set: 0.93
+AUC score on validation set: 0.95
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           21          193
+
+Current validation loss: 0.264
+
+Epoch 42:
+Mean loss 0.23321424031845567 - Correctly labeled training images 91.10%
+Classified 90.48 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.89
+F1-score on validation set: 0.93
+AUC score on validation set: 0.96
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           23          191
+
+Current validation loss: 0.246
+
+Epoch 43:
+Mean loss 0.23975011265399504 - Correctly labeled training images 90.46%
+Classified 84.01 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.79
+F1-score on validation set: 0.88
+AUC score on validation set: 0.96
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           44          170
+
+Current validation loss: 0.362
+
+Epoch 44:
+Mean loss 0.2356310114011067 - Correctly labeled training images 90.24%
+Classified 86.73 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.83
+F1-score on validation set: 0.90
+AUC score on validation set: 0.96
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           36          178
+
+Current validation loss: 0.333
+
+Epoch 45:
+Mean loss 0.23124116583138096 - Correctly labeled training images 90.80%
+Classified 88.10 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.86
+F1-score on validation set: 0.91
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           31          183
+
+Current validation loss: 0.292
+
+Epoch 46:
+Mean loss 0.2306212869022979 - Correctly labeled training images 91.03%
+Classified 90.82 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.90
+F1-score on validation set: 0.93
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           22          192
+
+Current validation loss: 0.237
+
+Epoch 47:
+Mean loss 0.22810293024494535 - Correctly labeled training images 91.14%
+Classified 88.78 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.86
+F1-score on validation set: 0.92
+AUC score on validation set: 0.96
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           29          185
+
+Current validation loss: 0.292
+
+Epoch 48:
+Mean loss 0.2210065349429643 - Correctly labeled training images 91.50%
+Classified 90.82 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.90
+F1-score on validation set: 0.93
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           22          192
+
+Current validation loss: 0.240
+
+Epoch 49:
+Mean loss 0.21513302857373037 - Correctly labeled training images 91.57%
+Classified 88.44 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.86
+F1-score on validation set: 0.92
+AUC score on validation set: 0.96
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           29          185
+
+Current validation loss: 0.282
+
+Epoch 50:
+Mean loss 0.21698547223088693 - Correctly labeled training images 91.93%
+Classified 89.46 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.88
+F1-score on validation set: 0.92
+AUC score on validation set: 0.96
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           26          188
+
+Current validation loss: 0.273
+
+Epoch 51:
+Mean loss 0.22052350665639048 - Correctly labeled training images 91.23%
+Classified 91.84 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.91
+F1-score on validation set: 0.94
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           20          194
+
+Current validation loss: 0.234
+
+Epoch 52:
+Mean loss 0.21007584917302036 - Correctly labeled training images 91.74%
+Classified 91.16 % of validation images correctly.
+Precision on validation set: 0.94
+Recall on validation set: 0.93
+F1-score on validation set: 0.94
+AUC score on validation set: 0.96
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           68           12
+true class POS           14          200
+
+Current validation loss: 0.213
+
+Epoch 53:
+Mean loss 0.20177187826357731 - Correctly labeled training images 92.08%
+Classified 88.78 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.86
+F1-score on validation set: 0.92
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           30          184
+
+Current validation loss: 0.280
+
+Epoch 54:
+Mean loss 0.21886720751621286 - Correctly labeled training images 91.61%
+Classified 91.84 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.92
+F1-score on validation set: 0.94
+AUC score on validation set: 0.96
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           18          196
+
+Current validation loss: 0.227
+
+Epoch 55:
+Mean loss 0.21902650201908586 - Correctly labeled training images 91.23%
+Classified 92.18 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.92
+F1-score on validation set: 0.94
+AUC score on validation set: 0.96
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           18          196
+
+Current validation loss: 0.225
+
+Epoch 56:
+Mean loss 0.21424726599535973 - Correctly labeled training images 91.76%
+Classified 88.78 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.87
+F1-score on validation set: 0.92
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           28          186
+
+Current validation loss: 0.248
+
+Epoch 57:
+Mean loss 0.21493147790026504 - Correctly labeled training images 92.08%
+Classified 86.39 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.83
+F1-score on validation set: 0.90
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           37          177
+
+Current validation loss: 0.362
+
+Epoch 58:
+Mean loss 0.2152357869052968 - Correctly labeled training images 91.87%
+Classified 86.73 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.84
+F1-score on validation set: 0.90
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           35          179
+
+Current validation loss: 0.316
+
+Epoch 59:
+Mean loss 0.21093979221927064 - Correctly labeled training images 92.31%
+Classified 89.80 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.88
+F1-score on validation set: 0.93
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           25          189
+
+Current validation loss: 0.242
+
+Epoch 60:
+Mean loss 0.20392947978511147 - Correctly labeled training images 92.23%
+Classified 91.16 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.90
+F1-score on validation set: 0.94
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           22          192
+
+Current validation loss: 0.216
+
+Epoch 61:
+Mean loss 0.20717523670216806 - Correctly labeled training images 91.93%
+Classified 90.82 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.90
+F1-score on validation set: 0.93
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           21          193
+
+Current validation loss: 0.217
+
+Epoch 62:
+Mean loss 0.1916428646262811 - Correctly labeled training images 92.74%
+Classified 88.10 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.86
+F1-score on validation set: 0.91
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           31          183
+
+Current validation loss: 0.306
+
+Epoch 63:
+Mean loss 0.20192048288121514 - Correctly labeled training images 92.46%
+Classified 90.82 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.90
+F1-score on validation set: 0.93
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           22          192
+
+Current validation loss: 0.228
+
+Epoch 64:
+Mean loss 0.21412702264631686 - Correctly labeled training images 91.99%
+Classified 90.14 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.89
+F1-score on validation set: 0.93
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           24          190
+
+Current validation loss: 0.266
+
+Epoch 65:
+Mean loss 0.2101477746199183 - Correctly labeled training images 92.04%
+Classified 89.46 % of validation images correctly.
+Precision on validation set: 0.89
+Recall on validation set: 0.98
+F1-score on validation set: 0.93
+AUC score on validation set: 0.96
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           54           26
+true class POS            5          209
+
+Current validation loss: 0.236
+
+Epoch 66:
+Mean loss 0.1986637756887342 - Correctly labeled training images 92.10%
+Classified 73.81 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.64
+F1-score on validation set: 0.78
+AUC score on validation set: 0.96
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           79            1
+true class POS           76          138
+
+Current validation loss: 0.654
+
+Epoch 67:
+Mean loss 0.19116401956194923 - Correctly labeled training images 92.76%
+Classified 91.50 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.91
+F1-score on validation set: 0.94
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           19          195
+
+Current validation loss: 0.222
+
+Epoch 68:
+Mean loss 0.19136284023117858 - Correctly labeled training images 92.74%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.93
+F1-score on validation set: 0.95
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           14          200
+
+Current validation loss: 0.201
+
+Epoch 69:
+Mean loss 0.197391138671815 - Correctly labeled training images 92.76%
+Classified 90.82 % of validation images correctly.
+Precision on validation set: 0.93
+Recall on validation set: 0.95
+F1-score on validation set: 0.94
+AUC score on validation set: 0.96
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           64           16
+true class POS           11          203
+
+Current validation loss: 0.213
+
+Epoch 70:
+Mean loss 0.19858895716111677 - Correctly labeled training images 92.49%
+Classified 92.52 % of validation images correctly.
+Precision on validation set: 0.95
+Recall on validation set: 0.94
+F1-score on validation set: 0.95
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           70           10
+true class POS           12          202
+
+Current validation loss: 0.182
+
+Epoch 71:
+Mean loss 0.18937067013411296 - Correctly labeled training images 92.59%
+Classified 90.14 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.88
+F1-score on validation set: 0.93
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           25          189
+
+Current validation loss: 0.249
+
+Epoch 72:
+Mean loss 0.18632003312715056 - Correctly labeled training images 93.10%
+Classified 92.18 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.92
+F1-score on validation set: 0.94
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           17          197
+
+Current validation loss: 0.193
+
+Epoch 73:
+Mean loss 0.1754395605958238 - Correctly labeled training images 93.32%
+Classified 91.16 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.89
+F1-score on validation set: 0.94
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           23          191
+
+Current validation loss: 0.221
+
+Epoch 74:
+Mean loss 0.18371665944047524 - Correctly labeled training images 93.02%
+Classified 91.84 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.90
+F1-score on validation set: 0.94
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           78            2
+true class POS           22          192
+
+Current validation loss: 0.241
+
+Epoch 75:
+Mean loss 0.18266322990866746 - Correctly labeled training images 93.27%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           72            8
+true class POS           11          203
+
+Current validation loss: 0.165
+
+Epoch 76:
+Mean loss 0.18313613936913256 - Correctly labeled training images 93.40%
+Classified 93.20 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.93
+F1-score on validation set: 0.95
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           16          198
+
+Current validation loss: 0.191
+
+Epoch 77:
+Mean loss 0.1828953035327853 - Correctly labeled training images 93.17%
+Classified 92.86 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.91
+F1-score on validation set: 0.95
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           78            2
+true class POS           19          195
+
+Current validation loss: 0.232
+
+Epoch 78:
+Mean loss 0.18779300249555483 - Correctly labeled training images 92.91%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           11          203
+
+Current validation loss: 0.176
+
+Epoch 79:
+Mean loss 0.18230416286153858 - Correctly labeled training images 93.32%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           12          202
+
+Current validation loss: 0.169
+
+Epoch 80:
+Mean loss 0.17853592935518747 - Correctly labeled training images 93.68%
+Classified 91.84 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.91
+F1-score on validation set: 0.94
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           19          195
+
+Current validation loss: 0.211
+
+Epoch 81:
+Mean loss 0.18647989715595228 - Correctly labeled training images 93.36%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.93
+F1-score on validation set: 0.95
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           14          200
+
+Current validation loss: 0.202
+
+Epoch 82:
+Mean loss 0.18574145104305273 - Correctly labeled training images 92.83%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.93
+F1-score on validation set: 0.95
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           15          199
+
+Current validation loss: 0.190
+
+Epoch 83:
+Mean loss 0.1939699787671874 - Correctly labeled training images 92.21%
+Classified 90.82 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.89
+F1-score on validation set: 0.93
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           24          190
+
+Current validation loss: 0.275
+
+Epoch 84:
+Mean loss 0.17872437256939558 - Correctly labeled training images 93.51%
+Classified 90.82 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.90
+F1-score on validation set: 0.93
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           22          192
+
+Current validation loss: 0.222
+
+Epoch 85:
+Mean loss 0.1741221603132835 - Correctly labeled training images 93.47%
+Classified 92.52 % of validation images correctly.
+Precision on validation set: 0.94
+Recall on validation set: 0.96
+F1-score on validation set: 0.95
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           67           13
+true class POS            9          205
+
+Current validation loss: 0.175
+
+Epoch 86:
+Mean loss 0.1743841785303995 - Correctly labeled training images 93.70%
+Classified 92.18 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.91
+F1-score on validation set: 0.94
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           19          195
+
+Current validation loss: 0.221
+
+Epoch 87:
+Mean loss 0.1791845115573228 - Correctly labeled training images 93.36%
+Classified 90.14 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.87
+F1-score on validation set: 0.93
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           78            2
+true class POS           27          187
+
+Current validation loss: 0.254
+
+Epoch 88:
+Mean loss 0.17427515446328792 - Correctly labeled training images 93.66%
+Classified 91.84 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.91
+F1-score on validation set: 0.94
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           19          195
+
+Current validation loss: 0.212
+
+Epoch 89:
+Mean loss 0.17290156693229464 - Correctly labeled training images 93.79%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.95
+Recall on validation set: 0.96
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           70           10
+true class POS            9          205
+
+Current validation loss: 0.174
+
+Epoch 90:
+Mean loss 0.17256436821352056 - Correctly labeled training images 93.83%
+Classified 91.16 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.90
+F1-score on validation set: 0.94
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           22          192
+
+Current validation loss: 0.254
+
+Epoch 91:
+Mean loss 0.17220083336491568 - Correctly labeled training images 93.36%
+Classified 91.50 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.89
+F1-score on validation set: 0.94
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           78            2
+true class POS           23          191
+
+Current validation loss: 0.266
+
+Epoch 92:
+Mean loss 0.17696835985090456 - Correctly labeled training images 93.13%
+Classified 92.86 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.92
+F1-score on validation set: 0.95
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           17          197
+
+Current validation loss: 0.204
+
+Epoch 93:
+Mean loss 0.17013972153773113 - Correctly labeled training images 93.74%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           13          201
+
+Current validation loss: 0.181
+
+Epoch 94:
+Mean loss 0.18259067486236696 - Correctly labeled training images 93.51%
+Classified 91.16 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.89
+F1-score on validation set: 0.94
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           23          191
+
+Current validation loss: 0.254
+
+Epoch 95:
+Mean loss 0.17014395866264292 - Correctly labeled training images 93.64%
+Classified 93.20 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.93
+F1-score on validation set: 0.95
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           14          200
+
+Current validation loss: 0.171
+
+Epoch 96:
+Mean loss 0.16563030045961036 - Correctly labeled training images 93.96%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           14          200
+
+Current validation loss: 0.173
+
+Epoch 97:
+Mean loss 0.1619670839131284 - Correctly labeled training images 94.45%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           72            8
+true class POS           10          204
+
+Current validation loss: 0.153
+
+Epoch 98:
+Mean loss 0.16086576782724485 - Correctly labeled training images 94.32%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           13          201
+
+Current validation loss: 0.172
+
+Epoch 99:
+Mean loss 0.16541642500531106 - Correctly labeled training images 94.34%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           12          202
+
+Current validation loss: 0.170
+
+Epoch 100:
+Mean loss 0.15881222383860422 - Correctly labeled training images 94.26%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           11          203
+
+Current validation loss: 0.151
+
+Epoch 101:
+Mean loss 0.15882148165382495 - Correctly labeled training images 94.34%
+Classified 92.18 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.93
+F1-score on validation set: 0.95
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+true class POS           16          198
+
+Current validation loss: 0.175
+
+Epoch 102:
+Mean loss 0.1526264939457178 - Correctly labeled training images 94.75%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           14          200
+
+Current validation loss: 0.152
+
+Epoch 103:
+Mean loss 0.15313106135395513 - Correctly labeled training images 94.32%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           10          204
+
+Current validation loss: 0.145
+
+Epoch 104:
+Mean loss 0.15571275072134272 - Correctly labeled training images 93.94%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           12          202
+
+Current validation loss: 0.151
+
+Epoch 105:
+Mean loss 0.15505806169136852 - Correctly labeled training images 94.49%
+Classified 93.20 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.92
+F1-score on validation set: 0.95
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           17          197
+
+Current validation loss: 0.188
+
+Epoch 106:
+Mean loss 0.1529245273697944 - Correctly labeled training images 94.71%
+Classified 88.44 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.86
+F1-score on validation set: 0.92
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           31          183
+
+Current validation loss: 0.312
+
+Epoch 107:
+Mean loss 0.15241320424896926 - Correctly labeled training images 94.34%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           13          201
+
+Current validation loss: 0.148
+
+Epoch 108:
+Mean loss 0.15301854859049224 - Correctly labeled training images 94.51%
+Classified 92.52 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.91
+F1-score on validation set: 0.95
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           78            2
+true class POS           20          194
+
+Current validation loss: 0.232
+
+Epoch 109:
+Mean loss 0.14481001305488908 - Correctly labeled training images 94.68%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           12          202
+
+Current validation loss: 0.136
+
+Epoch 110:
+Mean loss 0.15398806451382685 - Correctly labeled training images 94.19%
+Classified 92.86 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.92
+F1-score on validation set: 0.95
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           17          197
+
+Current validation loss: 0.165
+
+Epoch 111:
+Mean loss 0.1417914405465126 - Correctly labeled training images 94.94%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           14          200
+
+Current validation loss: 0.139
+
+Epoch 112:
+Mean loss 0.1394709847411331 - Correctly labeled training images 95.13%
+Classified 91.84 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.90
+F1-score on validation set: 0.94
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           21          193
+
+Current validation loss: 0.220
+
+Epoch 113:
+Mean loss 0.1481662420239173 - Correctly labeled training images 94.77%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           13          201
+
+Current validation loss: 0.149
+
+Epoch 114:
+Mean loss 0.1431170761661262 - Correctly labeled training images 95.15%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS            8          206
+
+Current validation loss: 0.129
+
+Epoch 115:
+Mean loss 0.14724887062345637 - Correctly labeled training images 94.75%
+Classified 95.58 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS            8          206
+
+Current validation loss: 0.156
+
+Epoch 116:
+Mean loss 0.1437446448799907 - Correctly labeled training images 94.79%
+Classified 91.84 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.90
+F1-score on validation set: 0.94
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           78            2
+true class POS           22          192
+
+Current validation loss: 0.228
+
+Epoch 117:
+Mean loss 0.13986689786166967 - Correctly labeled training images 94.98%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           11          203
+
+Current validation loss: 0.140
+
+Epoch 118:
+Mean loss 0.14266169671805537 - Correctly labeled training images 94.66%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           12          202
+
+Current validation loss: 0.157
+
+Epoch 119:
+Mean loss 0.13142496541294515 - Correctly labeled training images 94.98%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.96
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS            9          205
+
+Current validation loss: 0.142
+
+Epoch 120:
+Mean loss 0.1389584430322355 - Correctly labeled training images 94.98%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           10          204
+
+Current validation loss: 0.141
+
+Epoch 121:
+Mean loss 0.13632103968031553 - Correctly labeled training images 94.98%
+Classified 81.63 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.75
+F1-score on validation set: 0.86
+AUC score on validation set: 0.97
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           79            1
+true class POS           53          161
+
+Current validation loss: 0.499
+
+Epoch 122:
+Mean loss 0.13880155705625102 - Correctly labeled training images 94.98%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.94
+F1-score on validation set: 0.95
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           13          201
+
+Current validation loss: 0.143
+
+Epoch 123:
+Mean loss 0.143990644969705 - Correctly labeled training images 94.68%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.98
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           12          202
+
+Current validation loss: 0.151
+
+Epoch 124:
+Mean loss 0.14193682515752964 - Correctly labeled training images 94.60%
+Classified 92.86 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.92
+F1-score on validation set: 0.95
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           17          197
+
+Current validation loss: 0.175
+
+Epoch 125:
+Mean loss 0.13692496568091264 - Correctly labeled training images 95.13%
+Classified 92.86 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.91
+F1-score on validation set: 0.95
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           78            2
+true class POS           19          195
+
+Current validation loss: 0.186
+
+Epoch 126:
+Mean loss 0.1295271434117945 - Correctly labeled training images 95.26%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.93
+F1-score on validation set: 0.95
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           16          198
+
+Current validation loss: 0.177
+
+Epoch 127:
+Mean loss 0.12546495495199347 - Correctly labeled training images 95.73%
+Classified 91.50 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.89
+F1-score on validation set: 0.94
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           78            2
+true class POS           23          191
+
+Current validation loss: 0.219
+
+Epoch 128:
+Mean loss 0.1497229201351704 - Correctly labeled training images 94.58%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           12          202
+
+Current validation loss: 0.136
+
+Epoch 129:
+Mean loss 0.13009064292953332 - Correctly labeled training images 95.58%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           12          202
+
+Current validation loss: 0.141
+
+Epoch 130:
+Mean loss 0.13105751817323724 - Correctly labeled training images 95.22%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           10          204
+
+Current validation loss: 0.136
+
+Epoch 131:
+Mean loss 0.128331817053005 - Correctly labeled training images 95.32%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           12          202
+
+Current validation loss: 0.143
+
+Epoch 132:
+Mean loss 0.1406486786040319 - Correctly labeled training images 95.03%
+Classified 95.92 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.97
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS            6          208
+
+Current validation loss: 0.137
+
+Epoch 133:
+Mean loss 0.12537488084109055 - Correctly labeled training images 95.28%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           12          202
+
+Current validation loss: 0.158
+
+Epoch 134:
+Mean loss 0.13067939768538994 - Correctly labeled training images 95.52%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           12          202
+
+Current validation loss: 0.143
+
+Epoch 135:
+Mean loss 0.12561702298089153 - Correctly labeled training images 95.50%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           10          204
+
+Current validation loss: 0.122
+
+Epoch 136:
+Mean loss 0.12425042946702566 - Correctly labeled training images 95.52%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.95
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           11          203
+
+Current validation loss: 0.143
+
+Epoch 137:
+Mean loss 0.124051930661611 - Correctly labeled training images 95.50%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.93
+F1-score on validation set: 0.95
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           16          198
+
+Current validation loss: 0.184
+
+Epoch 138:
+Mean loss 0.12336797741729588 - Correctly labeled training images 95.13%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.96
+Recall on validation set: 0.97
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           71            9
+true class POS            6          208
+
+Current validation loss: 0.140
+
+Epoch 139:
+Mean loss 0.1244339059569499 - Correctly labeled training images 95.56%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           11          203
+
+Current validation loss: 0.127
+
+Epoch 140:
+Mean loss 0.11828073219326483 - Correctly labeled training images 95.54%
+Classified 93.20 % of validation images correctly.
+Precision on validation set: 1.00
+Recall on validation set: 0.91
+F1-score on validation set: 0.95
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           80            0
+true class POS           20          194
+
+Current validation loss: 0.225
+
+Epoch 141:
+Mean loss 0.11655791904650578 - Correctly labeled training images 95.71%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.96
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+true class POS            8          206
+
+Current validation loss: 0.126
+
+Epoch 142:
+Mean loss 0.12554023813988482 - Correctly labeled training images 95.41%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           14          200
+
+Current validation loss: 0.156
+
+Epoch 143:
+Mean loss 0.11400253642477146 - Correctly labeled training images 95.88%
+Classified 89.80 % of validation images correctly.
+Precision on validation set: 1.00
+Recall on validation set: 0.86
+F1-score on validation set: 0.92
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           80            0
+true class POS           30          184
+
+Current validation loss: 0.334
+
+Epoch 144:
+Mean loss 0.1211471366410961 - Correctly labeled training images 95.75%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.92
+F1-score on validation set: 0.95
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           78            2
+true class POS           17          197
+
+Current validation loss: 0.182
+
+Epoch 145:
+Mean loss 0.1107030224536552 - Correctly labeled training images 96.09%
+Classified 93.54 % of validation images correctly.
+Precision on validation set: 0.93
+Recall on validation set: 0.98
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           65           15
+true class POS            4          210
+
+Current validation loss: 0.142
+
+Epoch 146:
+Mean loss 0.1160766833088025 - Correctly labeled training images 95.96%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           12          202
+
+Current validation loss: 0.128
+
+Epoch 147:
+Mean loss 0.10525253094530025 - Correctly labeled training images 96.14%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.95
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           11          203
+
+Current validation loss: 0.127
+
+Epoch 148:
+Mean loss 0.1020290577644799 - Correctly labeled training images 96.31%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS            9          205
+
+Current validation loss: 0.122
+
+Epoch 149:
+Mean loss 0.1167626911837633 - Correctly labeled training images 96.07%
+Classified 86.73 % of validation images correctly.
+Precision on validation set: 1.00
+Recall on validation set: 0.82
+F1-score on validation set: 0.90
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           80            0
+true class POS           39          175
+
+Current validation loss: 0.369
+
+Epoch 150:
+Mean loss 0.10791740871864516 - Correctly labeled training images 95.86%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           12          202
+
+Current validation loss: 0.145
+
+Epoch 151:
+Mean loss 0.11507880754236664 - Correctly labeled training images 95.58%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           10          204
+
+Current validation loss: 0.102
+
+Epoch 152:
+Mean loss 0.12028437958029257 - Correctly labeled training images 95.52%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.95
+F1-score on validation set: 0.97
+AUC score on validation set: 1.00
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           11          203
+
+Current validation loss: 0.109
+
+Epoch 153:
+Mean loss 0.1131639339942105 - Correctly labeled training images 95.94%
+Classified 95.58 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.95
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           10          204
+
+Current validation loss: 0.109
+
+Epoch 154:
+Mean loss 0.115097567831882 - Correctly labeled training images 95.62%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS            9          205
+
+Current validation loss: 0.111
+
+Epoch 155:
+Mean loss 0.11574546987076803 - Correctly labeled training images 95.71%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           78            2
+true class POS           15          199
+
+Current validation loss: 0.160
+
+Epoch 156:
+Mean loss 0.11328182470839039 - Correctly labeled training images 95.45%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           13          201
+
+Current validation loss: 0.154
+
+Epoch 157:
+Mean loss 0.10429822846132071 - Correctly labeled training images 96.29%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           11          203
+
+Current validation loss: 0.133
+
+Epoch 158:
+Mean loss 0.1114238618562619 - Correctly labeled training images 95.77%
+Classified 96.60 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.97
+F1-score on validation set: 0.98
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS            7          207
+
+Current validation loss: 0.112
+
+Epoch 159:
+Mean loss 0.11369845675950756 - Correctly labeled training images 95.94%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           10          204
+
+Current validation loss: 0.122
+
+Epoch 160:
+Mean loss 0.10912891563509597 - Correctly labeled training images 96.22%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           10          204
+
+Current validation loss: 0.129
+
+Epoch 161:
+Mean loss 0.1023548438410167 - Correctly labeled training images 96.39%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           79            1
+true class POS           16          198
+
+Current validation loss: 0.161
+
+Epoch 162:
+Mean loss 0.1144660043143699 - Correctly labeled training images 95.92%
+Classified 95.58 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.95
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           78            2
+true class POS           11          203
+
+Current validation loss: 0.121
+
+Epoch 163:
+Mean loss 0.1052220598699487 - Correctly labeled training images 96.50%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           15          199
+
+Current validation loss: 0.132
+
+Epoch 164:
+Mean loss 0.0971459127696497 - Correctly labeled training images 96.54%
+Classified 96.26 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS            8          206
+
+Current validation loss: 0.116
+
+Epoch 165:
+Mean loss 0.09555483456118172 - Correctly labeled training images 96.48%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS            8          206
+
+Current validation loss: 0.112
+
+Epoch 166:
+Mean loss 0.0944488752367241 - Correctly labeled training images 96.54%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           14          200
+
+Current validation loss: 0.146
+
+Epoch 167:
+Mean loss 0.08985285100774193 - Correctly labeled training images 96.88%
+Classified 95.92 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.97
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS            7          207
+
+Current validation loss: 0.117
+
+Epoch 168:
+Mean loss 0.10078625425341584 - Correctly labeled training images 96.48%
+Classified 95.58 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS            8          206
+
+Current validation loss: 0.127
+
+Epoch 169:
+Mean loss 0.09978429971224799 - Correctly labeled training images 96.50%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS            9          205
+
+Current validation loss: 0.128
+
+Epoch 170:
+Mean loss 0.088001618785847 - Correctly labeled training images 96.67%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS            9          205
+
+Current validation loss: 0.135
+
+Epoch 171:
+Mean loss 0.08337781844077771 - Correctly labeled training images 97.18%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           10          204
+
+Current validation loss: 0.130
+
+Epoch 172:
+Mean loss 0.08472955629837756 - Correctly labeled training images 97.27%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           10          204
+
+Current validation loss: 0.146
+
+Epoch 173:
+Mean loss 0.08367034390910852 - Correctly labeled training images 96.95%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           10          204
+
+Current validation loss: 0.120
+
+Epoch 174:
+Mean loss 0.08806519598389666 - Correctly labeled training images 96.90%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           10          204
+
+Current validation loss: 0.131
+
+Epoch 175:
+Mean loss 0.08695920906504806 - Correctly labeled training images 97.10%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS            8          206
+
+Current validation loss: 0.117
+
+Epoch 176:
+Mean loss 0.08751897077348565 - Correctly labeled training images 96.97%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS            9          205
+
+Current validation loss: 0.116
+
+Epoch 177:
+Mean loss 0.09086967888763364 - Correctly labeled training images 96.54%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76            4
+true class POS           12          202
+
+Current validation loss: 0.140
+
+Epoch 178:
+Mean loss 0.08425551384598726 - Correctly labeled training images 96.99%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+true class POS           11          203
+
+Current validation loss: 0.133
+
+Epoch 179:
+Mean loss 0.08351154926353369 - Correctly labeled training images 97.33%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           12          202
+
+Current validation loss: 0.129
+
+Epoch 180:
+Mean loss 0.08799330503077937 - Correctly labeled training images 96.80%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS            9          205
+
+Current validation loss: 0.100
+
+Epoch 181:
+Mean loss 0.08651325744925206 - Correctly labeled training images 96.82%
+Classified 95.58 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.97
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS            7          207
+
+Current validation loss: 0.112
+
+Epoch 182:
+Mean loss 0.08289183401597702 - Correctly labeled training images 97.05%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           10          204
+
+Current validation loss: 0.122
+
+Epoch 183:
+Mean loss 0.08174434835788141 - Correctly labeled training images 97.08%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           12          202
+
+Current validation loss: 0.138
+
+Epoch 184:
+Mean loss 0.07888711731703509 - Correctly labeled training images 97.44%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           11          203
+
+Current validation loss: 0.136
+
+Epoch 185:
+Mean loss 0.07890761317368471 - Correctly labeled training images 97.37%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           10          204
+
+Current validation loss: 0.115
+
+Epoch 186:
+Mean loss 0.06864684082719745 - Correctly labeled training images 97.65%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.97
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+true class POS            7          207
+
+Current validation loss: 0.111
+
+Epoch 187:
+Mean loss 0.08117930706096244 - Correctly labeled training images 96.97%
+Classified 96.26 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.98
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS            5          209
+
+Current validation loss: 0.105
+
+Epoch 188:
+Mean loss 0.07358707685251625 - Correctly labeled training images 97.29%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS           11          203
+
+Current validation loss: 0.114
+
+Epoch 189:
+Mean loss 0.07377324653409269 - Correctly labeled training images 97.42%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           79            1
+true class POS           16          198
+
+Current validation loss: 0.137
+
+Epoch 190:
+Mean loss 0.07735824225102964 - Correctly labeled training images 97.01%
+Classified 93.88 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.94
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           12          202
+
+Current validation loss: 0.118
+
+Epoch 191:
+Mean loss 0.07334910177936156 - Correctly labeled training images 97.67%
+Classified 95.58 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.97
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS            7          207
+
+Current validation loss: 0.098
+
+Epoch 192:
+Mean loss 0.0656078337615698 - Correctly labeled training images 97.78%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           10          204
+
+Current validation loss: 0.108
+
+Epoch 193:
+Mean loss 0.07530674537593106 - Correctly labeled training images 97.35%
+Classified 94.22 % of validation images correctly.
+Precision on validation set: 0.99
+Recall on validation set: 0.93
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           14          200
+
+Current validation loss: 0.139
+
+Epoch 194:
+Mean loss 0.0711689369727661 - Correctly labeled training images 97.54%
+Classified 94.56 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.95
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS           10          204
+
+Current validation loss: 0.118
+
+Epoch 195:
+Mean loss 0.07222543959347467 - Correctly labeled training images 97.52%
+Classified 94.90 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.96
+F1-score on validation set: 0.96
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS            9          205
+
+Current validation loss: 0.118
+
+Epoch 196:
+Mean loss 0.06428861139076096 - Correctly labeled training images 97.82%
+/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/inception.py:81: FutureWarning: The default weight initialization of inception_v3 will be changed in future releases of torchvision. If you wish to keep the old behavior (which leads to long initialization times due to scipy/scipy#11299), please set init_weights=True.
+  warnings.warn('The default weight initialization of inception_v3 will be changed in future releases of '
+Classified 91.84 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.90
+F1-score on validation set: 0.94
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           77            3
+true class POS           21          193
+
+Current validation loss: 0.198
+
+Epoch 197:
+Mean loss 0.06119508157820017 - Correctly labeled training images 97.78%
+Classified 95.58 % of validation images correctly.
+Precision on validation set: 0.98
+Recall on validation set: 0.96
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           75            5
+true class POS            8          206
+
+Current validation loss: 0.127
+
+Epoch 198:
+Mean loss 0.05946911342099917 - Correctly labeled training images 97.95%
+Classified 95.92 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.97
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS            6          208
+
+Current validation loss: 0.113
+
+Epoch 199:
+Mean loss 0.06193291033510448 - Correctly labeled training images 98.04%
+Classified 95.58 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.97
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           74            6
+true class POS            7          207
+
+Current validation loss: 0.124
+
+Epoch 200:
+Mean loss 0.07466274255658595 - Correctly labeled training images 97.22%
+Classified 95.24 % of validation images correctly.
+Precision on validation set: 0.97
+Recall on validation set: 0.97
+F1-score on validation set: 0.97
+AUC score on validation set: 0.99
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           73            7
+true class POS            7          207
+
+Current validation loss: 0.123
+Training finished. Time >7.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/chest_xray/inceptionV3.pth

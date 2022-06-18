@@ -1,0 +1,153 @@
+/pytorch/aten/src/ATen/native/cuda/ScatterGatherKernel.cu:276: operator(): block: [0,0,0], thread: [0,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+/pytorch/aten/src/ATen/native/cuda/ScatterGatherKernel.cu:276: operator(): block: [0,0,0], thread: [1,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+/pytorch/aten/src/ATen/native/cuda/ScatterGatherKernel.cu:276: operator(): block: [0,0,0], thread: [2,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+File path is /scratch/work/hakkina7/melanoma/
+Device is cuda
+Model succesfully loaded from /scratch/work/hakkina7/melanoma/resnet50_nonweighted.pth
+Evaluating the resnet50_nonweighted.pth model on the test set.
+
+##################################################################
+No attack
+Computing took ~2 minutes.
+
+Classified 66.83 % of test images correctly.
+##################################################################
+
+Precision on test set: [0.42 0.6  0.44 0.2  0.55 0.78 0.3  0.71]
+Recall on test set: [0.35 0.67 0.34 0.14 0.47 0.86 0.21 0.45]
+F1-score on test set: [0.38 0.63 0.38 0.16 0.51 0.82 0.25 0.55]
+ROC AUC on test set: {'AK': 0.74, 'BCC': 0.93, 'BKL': 0.61, 'DF': 0.76, 'MEL': 0.46, 'NV': 0.21, 'SCC': 0.77, 'VASC': 0.68}
+Confusion matrix on test set:
+                 pred as AK  pred as BCC  ...  pred as SCC  pred as VASC
+true class AK            45           32  ...            9             0
+true class BCC           27          336  ...           12             2
+true class BKL           16           54  ...            7             0
+true class DF             0           12  ...            3             1
+true class MEL            3           39  ...           12             2
+true class NV            10           49  ...            3             2
+true class SCC            7           33  ...           20             0
+true class VASC           0            8  ...            1            17
+
+[8 rows x 8 columns]
+
+
+##################################################################
+FGM
+Computing took ~1 minutes.
+
+Classified 18.37 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD with 1 iterations
+Computing took ~1 minutes.
+
+Classified 18.95 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD with 2 iterations
+Computing took ~1 minutes.
+
+Classified 15.74 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD with 5 iterations
+Computing took ~2 minutes.
+
+Classified 15.53 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD with 10 iterations
+Computing took ~3 minutes.
+
+Classified 15.32 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD with 20 iterations
+Computing took ~6 minutes.
+
+Classified 15.50 % of test images correctly.
+##################################################################
+
+Traceback (most recent call last):
+  File "eval_resnet_nonweighted.py", line 169, in <module>
+    evaluate(model, testloader, adv='CW')
+  File "eval_resnet_nonweighted.py", line 76, in evaluate
+    images = CW(model, images, n_classes=2)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/cleverhans/torch/attacks/carlini_wagner_l2.py", line 145, in carlini_wagner_l2
+    logits = model_fn(new_x)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/resnet.py", line 249, in forward
+    return self._forward_impl(x)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/resnet.py", line 238, in _forward_impl
+    x = self.layer2(x)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/container.py", line 141, in forward
+    input = module(input)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/resnet.py", line 124, in forward
+    out = self.conv1(x)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 446, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 442, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED
+You can try to repro this exception using the following code snippet. If that doesn't trigger the error, please include your original repro script when reporting this issue.
+
+import torch
+torch.backends.cuda.matmul.allow_tf32 = True
+torch.backends.cudnn.benchmark = False
+torch.backends.cudnn.deterministic = False
+torch.backends.cudnn.allow_tf32 = True
+data = torch.randn([5, 512, 28, 28], dtype=torch.float, device='cuda', requires_grad=True)
+net = torch.nn.Conv2d(512, 128, kernel_size=[1, 1], padding=[0, 0], stride=[1, 1], dilation=[1, 1], groups=1)
+net = net.cuda().float()
+out = net(data)
+out.backward(torch.randn_like(out))
+torch.cuda.synchronize()
+
+ConvolutionParams 
+    data_type = CUDNN_DATA_FLOAT
+    padding = [0, 0, 0]
+    stride = [1, 1, 0]
+    dilation = [1, 1, 0]
+    groups = 1
+    deterministic = false
+    allow_tf32 = true
+input: TensorDescriptor 0x55e5cbf7a690
+    type = CUDNN_DATA_FLOAT
+    nbDims = 4
+    dimA = 5, 512, 28, 28, 
+    strideA = 401408, 784, 28, 1, 
+output: TensorDescriptor 0x55e5cbf7b5c0
+    type = CUDNN_DATA_FLOAT
+    nbDims = 4
+    dimA = 5, 128, 28, 28, 
+    strideA = 100352, 784, 28, 1, 
+weight: FilterDescriptor 0x55e5cbf48dc0
+    type = CUDNN_DATA_FLOAT
+    tensor_format = CUDNN_TENSOR_NCHW
+    nbDims = 4
+    dimA = 128, 512, 1, 1, 
+Pointer addresses: 
+    input: 0x2b5f067a8000
+    output: 0x2b5f12000000
+    weight: 0x2b5edd680000
+Forward algorithm: 1
+
+srun: error: gpu15: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=65466505.0

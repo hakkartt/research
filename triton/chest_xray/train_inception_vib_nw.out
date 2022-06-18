@@ -1,0 +1,152 @@
+File path is /scratch/work/hakkina7/chest_xray/
+Device is cuda
+Training InceptionV3 model for DR blindess classification task.
+
+Epoch 1:
+Mean loss 1.1313329557983243
+Epoch time ~2.0 minutes
+
+
+Epoch 2:
+Mean loss 0.9258759674571809
+Epoch time ~2.0 minutes
+
+
+Epoch 3:
+Mean loss 0.79276873789677
+Epoch time ~2.0 minutes
+
+
+Epoch 4:
+Mean loss 0.7351842948368618
+Epoch time ~2.0 minutes
+
+
+Epoch 5:
+Mean loss 0.7150284858787952
+Epoch time ~2.0 minutes
+
+
+Epoch 6:
+Mean loss 0.706373854559295
+Epoch time ~2.0 minutes
+
+
+Epoch 7:
+Mean loss 0.7057980380090726
+Epoch time ~2.0 minutes
+
+
+Epoch 8:
+Mean loss 0.706106985912842
+Epoch time ~2.0 minutes
+
+
+Epoch 9:
+Mean loss 0.703856589437342
+Epoch time ~2.0 minutes
+
+
+Epoch 10:
+Mean loss 0.7057607842951404
+Epoch time ~2.0 minutes
+
+
+Epoch 11:
+Mean loss 0.7006503124626315
+Epoch time ~2.0 minutes
+
+
+Epoch 12:
+Mean loss 0.7088670868451904
+Epoch time ~2.0 minutes
+
+
+Epoch 13:
+Mean loss 0.7120332616527064
+Epoch time ~2.0 minutes
+
+
+Epoch 14:
+Mean loss 0.7019359331552674
+Epoch time ~2.0 minutes
+
+
+Epoch 15:
+Mean loss 0.7052382753819836
+Epoch time ~2.0 minutes
+
+
+Epoch 16:
+Mean loss 0.704605874966602
+Epoch time ~2.0 minutes
+
+
+Epoch 17:
+Mean loss 0.7089031707672846
+Epoch time ~2.0 minutes
+
+
+Epoch 18:
+Mean loss 0.7059045194768582
+Epoch time ~2.0 minutes
+
+
+Epoch 19:
+Mean loss 0.7056143644715653
+Epoch time ~2.0 minutes
+
+
+Epoch 20:
+Mean loss 0.7041307221464559
+Epoch time ~2.0 minutes
+
+
+Epoch 21:
+Mean loss 0.7071791348003206
+Epoch time ~2.0 minutes
+
+
+Epoch 22:
+Mean loss 0.7050864700557423
+Epoch time ~2.0 minutes
+
+
+Epoch 23:
+Mean loss 0.7055942558106922
+Epoch time ~2.0 minutes
+
+
+Epoch 24:
+Mean loss 0.7075059572044684
+Epoch time ~2.0 minutes
+
+
+Epoch 25:
+Mean loss 0.7053300474776703
+Epoch time ~2.0 minutes
+
+
+Epoch 26:
+Mean loss 0.7069132019873379
+Epoch time ~2.0 minutes
+
+
+Epoch 27:
+Mean loss 0.7071170060813021
+Epoch time ~2.0 minutes
+
+
+Epoch 28:
+Mean loss 0.7081482077942414
+Epoch time ~2.0 minutes
+
+
+Epoch 29:
+Mean loss 0.7079631665936944
+Epoch time ~2.0 minutes
+
+Training finished. Time ~1.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/chest_xray/inceptionV3_vib_nw.pth
+/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/inception.py:81: FutureWarning: The default weight initialization of inception_v3 will be changed in future releases of torchvision. If you wish to keep the old behavior (which leads to long initialization times due to scipy/scipy#11299), please set init_weights=True.
+  warnings.warn('The default weight initialization of inception_v3 will be changed in future releases of '

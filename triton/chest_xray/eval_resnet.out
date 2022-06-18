@@ -1,0 +1,114 @@
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+/home/hakkina7/.local/lib/python3.8/site-packages/cleverhans/torch/attacks/spsa.py:122: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  perturbation = torch.tensor(_project_perturbation(perturbation, norm, eps, x, clip_min, clip_max), requires_grad=True)
+/home/hakkina7/.local/lib/python3.8/site-packages/cleverhans/torch/attacks/spsa.py:141: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  perturbation = torch.tensor(_project_perturbation(perturbation, norm, eps, x, clip_min, clip_max), requires_grad=True)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+File path is /scratch/work/hakkina7/chest_xray/
+Device is cuda
+Model succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50.pth
+Evaluating the resnet50.pth model on the test set.
+
+##################################################################
+No attack
+Computing took ~0 minutes.
+
+Classified 96.01 % of test images correctly.
+##################################################################
+
+Precision on test set: 0.96
+Recall on test set: 0.98
+F1-score on test set: 0.97
+AUC score on test set: 0.98
+Confusion matrix on test set:
+                pred as NEG  pred as POS
+true class NEG          214           23
+true class POS           12          629
+
+
+##################################################################
+FGM
+Computing took ~0 minutes.
+
+Classified 10.36 % of test images correctly.
+##################################################################
+
+
+##################################################################
+CW
+Computing took ~265 minutes.
+
+Classified 3.99 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD_with_1_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 8.20 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD_with_2_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.10 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD_with_5_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 4.10 % of test images correctly.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.02_eps
+Computing took ~6 minutes.
+
+Classified 95.56 % of test images correctly.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.05_eps
+Computing took ~6 minutes.
+
+Classified 95.33 % of test images correctly.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.1_eps
+Computing took ~6 minutes.
+
+Classified 95.22 % of test images correctly.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.5_eps
+Computing took ~6 minutes.
+
+Classified 80.41 % of test images correctly.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_1_eps
+Computing took ~6 minutes.
+
+Classified 58.31 % of test images correctly.
+##################################################################
+

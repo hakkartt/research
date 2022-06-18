@@ -1,0 +1,26 @@
+File path is /scratch/work/hakkina7/melanoma/
+Device is cpu
+Model succesfully loaded from /scratch/work/hakkina7/melanoma/inceptionV3.pth
+Evaluating the InceptionV3 model on the validation set.
+Classified 49.61 % of validation images correctly.
+Precision on validation set: [0.25 0.36 0.28 0.04 0.39 0.86 0.14 0.22]
+Recall on validation set: [0.49 0.37 0.13 0.42 0.46 0.63 0.19 0.85]
+F1-score on validation set: [0.33 0.37 0.18 0.07 0.42 0.73 0.16 0.35]
+ROC AUC on validation set: {'AK': 0.33, 'BCC': 0.33, 'BKL': 0.33, 'DF': 0.42, 'MEL': 0.46, 'NV': 0.69, 'SCC': 0.41, 'VASC': 0.77}
+Confusion matrix on validation set:
+                 pred as AK  pred as BCC  ...  pred as SCC  pred as VASC
+true class AK            21            8  ...            5             1
+true class BCC           29           62  ...            7             8
+true class BKL           13           28  ...            4             5
+true class DF             0            4  ...            2             0
+true class MEL            6           30  ...           16             4
+true class NV            10           34  ...            4            20
+true class SCC            6            5  ...            6             1
+true class VASC           0            1  ...            0            11
+
+[8 rows x 8 columns]
+
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)

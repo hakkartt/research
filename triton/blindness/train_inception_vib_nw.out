@@ -1,0 +1,107 @@
+File path is /scratch/work/hakkina7/blindness/
+Device is cuda
+Training InceptionV3 model for DR blindess classification task.
+
+Epoch 1:
+Mean loss 1.0903460409330286
+Epoch time ~6.0 minutes
+
+
+Epoch 2:
+Mean loss 0.9562482600626738
+Epoch time ~5.0 minutes
+
+
+Epoch 3:
+Mean loss 0.840400689969892
+Epoch time ~5.0 minutes
+
+
+Epoch 4:
+Mean loss 0.7629240200571392
+Epoch time ~6.0 minutes
+
+
+Epoch 5:
+Mean loss 0.738983743864557
+Epoch time ~5.0 minutes
+
+
+Epoch 6:
+Mean loss 0.7185816259487815
+Epoch time ~5.0 minutes
+
+
+Epoch 7:
+Mean loss 0.7116548684628113
+Epoch time ~5.0 minutes
+
+
+Epoch 8:
+Mean loss 0.7025378177995267
+Epoch time ~5.0 minutes
+
+
+Epoch 9:
+Mean loss 0.7045241950646691
+Epoch time ~5.0 minutes
+
+
+Epoch 10:
+Mean loss 0.7045394687548928
+Epoch time ~5.0 minutes
+
+
+Epoch 11:
+Mean loss 0.6986434038566507
+Epoch time ~5.0 minutes
+
+
+Epoch 12:
+Mean loss 0.7051923845125281
+Epoch time ~5.0 minutes
+
+
+Epoch 13:
+Mean loss 0.7007648070221362
+Epoch time ~5.0 minutes
+
+
+Epoch 14:
+Mean loss 0.7017800004585929
+Epoch time ~5.0 minutes
+
+
+Epoch 15:
+Mean loss 0.7013275798248209
+Epoch time ~6.0 minutes
+
+
+Epoch 16:
+Mean loss 0.6980547963277154
+Epoch time ~5.0 minutes
+
+
+Epoch 17:
+Mean loss 0.7003749317449072
+Epoch time ~5.0 minutes
+
+
+Epoch 18:
+Mean loss 0.6961440677228181
+Epoch time ~5.0 minutes
+
+
+Epoch 19:
+Mean loss 0.7026926926944567
+Epoch time ~20.0 minutes
+
+
+Epoch 20:
+Mean loss 0.7020893181147783
+Epoch time ~6.0 minutes
+
+Training finished. Time ~2.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/blindness/inceptionV3_vib_nw.pth
+/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/inception.py:81: FutureWarning: The default weight initialization of inception_v3 will be changed in future releases of torchvision. If you wish to keep the old behavior (which leads to long initialization times due to scipy/scipy#11299), please set init_weights=True.
+  warnings.warn('The default weight initialization of inception_v3 will be changed in future releases of '

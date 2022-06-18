@@ -1,0 +1,139 @@
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 66383613.0 ON dgx7 CANCELLED AT 2022-01-30T12:37:50 ***
+slurmstepd: error: *** JOB 66383613 ON dgx7 CANCELLED AT 2022-01-30T12:37:50 ***
+Job has already finished for job 66383613
+File path is /scratch/work/hakkina7/blindness/
+Device is cuda
+Pre-trained base models succesfully loaded from /scratch/work/hakkina7/blindness/inceptionV3.pth
+==================================================================
+BETA = 1e-10
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/inceptionV3_vib_1e-10.pth
+Evaluating the inceptionV3_vib_1e-10.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~391 minutes.
+
+Classified 6.91 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-09
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/inceptionV3_vib_1e-09.pth
+Evaluating the inceptionV3_vib_1e-09.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~395 minutes.
+
+Classified 9.09 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-08
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/inceptionV3_vib_1e-08.pth
+Evaluating the inceptionV3_vib_1e-08.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~402 minutes.
+
+Classified 6.36 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-07
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/inceptionV3_vib_1e-07.pth
+Evaluating the inceptionV3_vib_1e-07.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~391 minutes.
+
+Classified 6.73 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-06
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/inceptionV3_vib_1e-06.pth
+Evaluating the inceptionV3_vib_1e-06.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~396 minutes.
+
+Classified 6.55 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-05
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/inceptionV3_vib_1e-05.pth
+Evaluating the inceptionV3_vib_1e-05.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~402 minutes.
+
+Classified 15.82 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.0001
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/inceptionV3_vib_0.0001.pth
+Evaluating the inceptionV3_vib_0.0001.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~393 minutes.
+
+/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/inception.py:81: FutureWarning: The default weight initialization of inception_v3 will be changed in future releases of torchvision. If you wish to keep the old behavior (which leads to long initialization times due to scipy/scipy#11299), please set init_weights=True.
+  warnings.warn('The default weight initialization of inception_v3 will be changed in future releases of '
+Classified 21.45 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.001
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/inceptionV3_vib_0.001.pth
+Evaluating the inceptionV3_vib_0.001.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~389 minutes.
+
+Classified 30.00 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.01
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/inceptionV3_vib_0.01.pth
+Evaluating the inceptionV3_vib_0.01.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~390 minutes.
+
+Classified 37.27 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.1
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/inceptionV3_vib_0.1.pth
+Evaluating the inceptionV3_vib_0.1.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~389 minutes.
+
+Classified 41.64 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+

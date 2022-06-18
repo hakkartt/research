@@ -1,0 +1,20 @@
+File path is /scratch/work/hakkina7/blindness/
+Device is cpu
+Model succesfully loaded from /scratch/work/hakkina7/blindness/resnet50.pth
+Evaluating the ResNet50 model on the validation set.
+
+Classified 88.46 % of validation images correctly.
+Precision on validation set: 0.86
+Recall on validation set: 0.92
+F1-score on validation set: 0.89
+AUC score on test set: 0.80
+Confusion matrix on validation set:
+                pred as NEG  pred as POS
+true class NEG           76           14
+true class POS            7           85
+
+
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:206: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = torch.tensor(mean, dtype=torch.float32)
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/torchvision/transforms/functional.py:207: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std = torch.tensor(std, dtype=torch.float32)

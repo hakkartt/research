@@ -1,0 +1,153 @@
+/pytorch/aten/src/ATen/native/cuda/ScatterGatherKernel.cu:276: operator(): block: [0,0,0], thread: [0,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+/pytorch/aten/src/ATen/native/cuda/ScatterGatherKernel.cu:276: operator(): block: [0,0,0], thread: [1,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+/pytorch/aten/src/ATen/native/cuda/ScatterGatherKernel.cu:276: operator(): block: [0,0,0], thread: [4,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+File path is /scratch/work/hakkina7/melanoma/
+Device is cuda
+Model succesfully loaded from /scratch/work/hakkina7/melanoma/resnet50.pth
+Evaluating the resnet50.pth model on the test set.
+
+##################################################################
+No attack
+Computing took ~2 minutes.
+
+Classified 64.07 % of test images correctly.
+##################################################################
+
+Precision on test set: [0.31 0.63 0.35 0.38 0.54 0.79 0.3  0.66]
+Recall on test set: [0.32 0.6  0.46 0.17 0.47 0.8  0.21 0.66]
+F1-score on test set: [0.31 0.62 0.4  0.23 0.51 0.79 0.25 0.66]
+ROC AUC on test set: {'AK': 0.68, 'BCC': 0.91, 'BKL': 0.54, 'DF': 0.75, 'MEL': 0.42, 'NV': 0.29, 'SCC': 0.72, 'VASC': 0.53}
+Confusion matrix on test set:
+                 pred as AK  pred as BCC  ...  pred as SCC  pred as VASC
+true class AK            41           26  ...            6             0
+true class BCC           30          301  ...           21             2
+true class BKL           14           36  ...            8             4
+true class DF             4           11  ...            0             0
+true class MEL           11           34  ...            7             1
+true class NV            14           46  ...            4             6
+true class SCC           19           18  ...           20             0
+true class VASC           1            6  ...            0            25
+
+[8 rows x 8 columns]
+
+
+##################################################################
+FGM
+Computing took ~1 minutes.
+
+Classified 16.56 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD with 1 iterations
+Computing took ~1 minutes.
+
+Classified 17.19 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD with 2 iterations
+Computing took ~1 minutes.
+
+Classified 16.24 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD with 5 iterations
+Computing took ~2 minutes.
+
+Classified 15.77 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD with 10 iterations
+Computing took ~3 minutes.
+
+Classified 15.56 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD with 20 iterations
+Computing took ~6 minutes.
+
+Classified 15.45 % of test images correctly.
+##################################################################
+
+Traceback (most recent call last):
+  File "eval_resnet.py", line 168, in <module>
+    evaluate(model, testloader, adv='CW')
+  File "eval_resnet.py", line 75, in evaluate
+    images = CW(model, images, n_classes=2)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/cleverhans/torch/attacks/carlini_wagner_l2.py", line 145, in carlini_wagner_l2
+    logits = model_fn(new_x)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/resnet.py", line 249, in forward
+    return self._forward_impl(x)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/resnet.py", line 238, in _forward_impl
+    x = self.layer2(x)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/container.py", line 141, in forward
+    input = module(input)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/resnet.py", line 124, in forward
+    out = self.conv1(x)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 446, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 442, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED
+You can try to repro this exception using the following code snippet. If that doesn't trigger the error, please include your original repro script when reporting this issue.
+
+import torch
+torch.backends.cuda.matmul.allow_tf32 = True
+torch.backends.cudnn.benchmark = False
+torch.backends.cudnn.deterministic = False
+torch.backends.cudnn.allow_tf32 = True
+data = torch.randn([5, 512, 28, 28], dtype=torch.float, device='cuda', requires_grad=True)
+net = torch.nn.Conv2d(512, 128, kernel_size=[1, 1], padding=[0, 0], stride=[1, 1], dilation=[1, 1], groups=1)
+net = net.cuda().float()
+out = net(data)
+out.backward(torch.randn_like(out))
+torch.cuda.synchronize()
+
+ConvolutionParams 
+    data_type = CUDNN_DATA_FLOAT
+    padding = [0, 0, 0]
+    stride = [1, 1, 0]
+    dilation = [1, 1, 0]
+    groups = 1
+    deterministic = false
+    allow_tf32 = true
+input: TensorDescriptor 0x56282f2b3a90
+    type = CUDNN_DATA_FLOAT
+    nbDims = 4
+    dimA = 5, 512, 28, 28, 
+    strideA = 401408, 784, 28, 1, 
+output: TensorDescriptor 0x56282f2b3b00
+    type = CUDNN_DATA_FLOAT
+    nbDims = 4
+    dimA = 5, 128, 28, 28, 
+    strideA = 100352, 784, 28, 1, 
+weight: FilterDescriptor 0x56282d322ec0
+    type = CUDNN_DATA_FLOAT
+    tensor_format = CUDNN_TENSOR_NCHW
+    nbDims = 4
+    dimA = 128, 512, 1, 1, 
+Pointer addresses: 
+    input: 0x2b6c4a7a8000
+    output: 0x2b6c56000000
+    weight: 0x2b6c21680000
+Forward algorithm: 1
+
+srun: error: gpu17: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=65466502.0

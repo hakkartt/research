@@ -1,0 +1,18 @@
+File path is /scratch/work/hakkina7/blindness/
+Device is cuda
+/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/inception.py:81: FutureWarning: The default weight initialization of inception_v3 will be changed in future releases of torchvision. If you wish to keep the old behavior (which leads to long initialization times due to scipy/scipy#11299), please set init_weights=True.
+  warnings.warn('The default weight initialization of inception_v3 will be changed in future releases of '
+Traceback (most recent call last):
+  File "eval_inception_vib_nw.py", line 240, in <module>
+    model.load_state_dict(torch.load(fpath+fname_base))
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/serialization.py", line 607, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/serialization.py", line 882, in _load
+    result = unpickler.load()
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/serialization.py", line 857, in persistent_load
+    load_tensor(data_type, size, key, _maybe_decode_ascii(location))
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/serialization.py", line 845, in load_tensor
+    storage = zip_file.get_storage_from_record(name, size, dtype).storage()
+RuntimeError: PytorchStreamReader failed reading file data/94815078755408: invalid header or archive is corrupted
+srun: error: gpu12: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=65975067.0

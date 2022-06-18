@@ -1,0 +1,133 @@
+File path is /scratch/work/hakkina7/blindness/
+Device is cuda
+Pre-trained base models succesfully loaded from /scratch/work/hakkina7/blindness/resnet50.pth
+==================================================================
+BETA = 1e-10
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/resnet50_vib_1e-10.pth
+Evaluating the resnet50_vib_1e-10.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~261 minutes.
+
+Classified 7.64 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-09
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/resnet50_vib_1e-09.pth
+Evaluating the resnet50_vib_1e-09.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~261 minutes.
+
+Classified 7.27 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-08
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/resnet50_vib_1e-08.pth
+Evaluating the resnet50_vib_1e-08.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~264 minutes.
+
+Classified 7.64 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-07
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/resnet50_vib_1e-07.pth
+Evaluating the resnet50_vib_1e-07.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~269 minutes.
+
+Classified 8.00 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-06
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/resnet50_vib_1e-06.pth
+Evaluating the resnet50_vib_1e-06.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~263 minutes.
+
+Classified 8.00 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-05
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/resnet50_vib_1e-05.pth
+Evaluating the resnet50_vib_1e-05.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~262 minutes.
+
+Classified 7.45 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.0001
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/resnet50_vib_0.0001.pth
+Evaluating the resnet50_vib_0.0001.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~265 minutes.
+
+Classified 9.09 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.001
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/resnet50_vib_0.001.pth
+Evaluating the resnet50_vib_0.001.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~265 minutes.
+
+Classified 48.91 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.01
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/resnet50_vib_0.01.pth
+Evaluating the resnet50_vib_0.01.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~271 minutes.
+
+Classified 20.55 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.1
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/blindness/resnet50_vib_0.1.pth
+Evaluating the resnet50_vib_0.1.pth model on the test set.
+
+##################################################################
+CW
+Computing took ~263 minutes.
+
+Classified 51.64 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+

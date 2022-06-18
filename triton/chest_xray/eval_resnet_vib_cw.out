@@ -1,0 +1,123 @@
+File path is /scratch/work/hakkina7/chest_xray/
+Device is cuda
+Pre-trained base models succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50.pth
+==================================================================
+BETA = 1e-10
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_1e-10.pth
+
+##################################################################
+CW
+Computing took ~555 minutes.
+
+Classified 5.13 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-09
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_1e-09.pth
+
+##################################################################
+CW
+Computing took ~552 minutes.
+
+Classified 4.67 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-08
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_1e-08.pth
+
+##################################################################
+CW
+Computing took ~534 minutes.
+
+Classified 5.81 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-07
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_1e-07.pth
+
+##################################################################
+CW
+Computing took ~543 minutes.
+
+Classified 5.13 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-06
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_1e-06.pth
+
+##################################################################
+CW
+Computing took ~515 minutes.
+
+Classified 74.49 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-05
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_1e-05.pth
+
+##################################################################
+CW
+Computing took ~519 minutes.
+
+Classified 4.90 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.0001
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_0.0001.pth
+
+##################################################################
+CW
+Computing took ~550 minutes.
+
+Classified 6.15 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.001
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_0.001.pth
+
+##################################################################
+CW
+Computing took ~549 minutes.
+
+Classified 7.86 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.01
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_0.01.pth
+
+##################################################################
+CW
+Computing took ~548 minutes.
+
+Classified 6.15 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.1
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/resnet50_vib_0.1.pth
+
+##################################################################
+CW
+Computing took ~549 minutes.
+
+Classified 9.34 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+

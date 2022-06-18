@@ -1,0 +1,125 @@
+File path is /scratch/work/hakkina7/chest_xray/
+Device is cuda
+Pre-trained base models succesfully loaded from /scratch/work/hakkina7/chest_xray/inceptionV3.pth
+==================================================================
+BETA = 1e-10
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/inceptionV3_vib_1e-10.pth
+
+##################################################################
+CW
+Computing took ~625 minutes.
+
+Classified 6.26 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-09
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/inceptionV3_vib_1e-09.pth
+
+##################################################################
+CW
+Computing took ~625 minutes.
+
+Classified 5.47 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-08
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/inceptionV3_vib_1e-08.pth
+
+##################################################################
+CW
+Computing took ~627 minutes.
+
+Classified 6.04 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-07
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/inceptionV3_vib_1e-07.pth
+
+##################################################################
+CW
+Computing took ~635 minutes.
+
+Classified 22.89 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-06
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/inceptionV3_vib_1e-06.pth
+
+##################################################################
+CW
+Computing took ~621 minutes.
+
+Classified 4.78 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 1e-05
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/inceptionV3_vib_1e-05.pth
+
+##################################################################
+CW
+Computing took ~620 minutes.
+
+Classified 5.69 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.0001
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/inceptionV3_vib_0.0001.pth
+
+##################################################################
+CW
+Computing took ~619 minutes.
+
+Classified 15.49 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.001
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/inceptionV3_vib_0.001.pth
+
+/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/inception.py:81: FutureWarning: The default weight initialization of inception_v3 will be changed in future releases of torchvision. If you wish to keep the old behavior (which leads to long initialization times due to scipy/scipy#11299), please set init_weights=True.
+  warnings.warn('The default weight initialization of inception_v3 will be changed in future releases of '
+##################################################################
+CW
+Computing took ~619 minutes.
+
+Classified 42.48 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.01
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/inceptionV3_vib_0.01.pth
+
+##################################################################
+CW
+Computing took ~619 minutes.
+
+Classified 47.27 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+
+==================================================================
+BETA = 0.1
+==================================================================
+Pretrained VIB succesfully loaded from /scratch/work/hakkina7/chest_xray/inceptionV3_vib_0.1.pth
+
+##################################################################
+CW
+Computing took ~619 minutes.
+
+Classified 38.95 % of test images correctly when perturbed images were created with 12 latent samples.
+##################################################################
+

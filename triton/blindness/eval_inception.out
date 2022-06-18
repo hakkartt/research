@@ -1,0 +1,116 @@
+/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/inception.py:81: FutureWarning: The default weight initialization of inception_v3 will be changed in future releases of torchvision. If you wish to keep the old behavior (which leads to long initialization times due to scipy/scipy#11299), please set init_weights=True.
+  warnings.warn('The default weight initialization of inception_v3 will be changed in future releases of '
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+/home/hakkina7/.local/lib/python3.8/site-packages/cleverhans/torch/attacks/spsa.py:122: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  perturbation = torch.tensor(_project_perturbation(perturbation, norm, eps, x, clip_min, clip_max), requires_grad=True)
+/home/hakkina7/.local/lib/python3.8/site-packages/cleverhans/torch/attacks/spsa.py:141: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  perturbation = torch.tensor(_project_perturbation(perturbation, norm, eps, x, clip_min, clip_max), requires_grad=True)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+File path is /scratch/work/hakkina7/blindness/
+Device is cuda
+Model succesfully loaded from /scratch/work/hakkina7/blindness/inceptionV3.pth
+Evaluating the inceptionV3.pth model on the test set.
+
+##################################################################
+No attack
+Computing took ~0 minutes.
+
+Classified 94.00 % of test images correctly.
+##################################################################
+
+Precision on test set: 0.97
+Recall on test set: 0.91
+F1-score on test set: 0.94
+AUC score on test set: 0.98
+Confusion matrix on test set:
+                pred as NEG  pred as POS
+true class NEG          262            9
+true class POS           24          255
+
+
+##################################################################
+FGM
+Computing took ~0 minutes.
+
+Classified 62.00 % of test images correctly.
+##################################################################
+
+
+##################################################################
+CW
+Computing took ~316 minutes.
+
+Classified 6.00 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD_with_1_iterations_and_0.02_eps
+Computing took ~1 minutes.
+
+Classified 69.82 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD_with_2_iterations_and_0.02_eps
+Computing took ~0 minutes.
+
+Classified 54.91 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD_with_5_iterations_and_0.02_eps
+Computing took ~1 minutes.
+
+Classified 39.27 % of test images correctly.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.02_eps
+Computing took ~6 minutes.
+
+Classified 92.00 % of test images correctly.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.05_eps
+Computing took ~6 minutes.
+
+Classified 73.82 % of test images correctly.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.1_eps
+Computing took ~6 minutes.
+
+Classified 54.73 % of test images correctly.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_0.5_eps
+Computing took ~6 minutes.
+
+Classified 49.27 % of test images correctly.
+##################################################################
+
+
+##################################################################
+SPSA_with_5_iterations_and_1_eps
+Computing took ~6 minutes.
+
+Classified 49.27 % of test images correctly.
+##################################################################
+

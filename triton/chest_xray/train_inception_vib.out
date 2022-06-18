@@ -1,0 +1,1055 @@
+File path is /scratch/work/hakkina7/chest_xray/
+Device is cuda
+Training InceptionV3 model for DR blindess classification task.
+##################################################################
+BETA = 1e-10
+##################################################################
+
+Epoch 1:
+Mean loss 0.33499816503236385
+Epoch time ~2.0 minutes
+
+
+Epoch 2:
+Mean loss 0.17040104755877258
+Epoch time ~2.0 minutes
+
+
+Epoch 3:
+Mean loss 0.1358717926995683
+Epoch time ~2.0 minutes
+
+
+Epoch 4:
+Mean loss 0.0931732827369092
+Epoch time ~2.0 minutes
+
+
+Epoch 5:
+Mean loss 0.10100557798437369
+Epoch time ~2.0 minutes
+
+
+Epoch 6:
+Mean loss 0.0835855606338326
+Epoch time ~2.0 minutes
+
+
+Epoch 7:
+Mean loss 0.06816372547859365
+Epoch time ~2.0 minutes
+
+
+Epoch 8:
+Mean loss 0.08091078644307952
+Epoch time ~2.0 minutes
+
+
+Epoch 9:
+Mean loss 0.08319514986526753
+Epoch time ~2.0 minutes
+
+
+Epoch 10:
+Mean loss 0.07972209985196894
+Epoch time ~2.0 minutes
+
+
+Epoch 11:
+Mean loss 0.07088168432657309
+Epoch time ~2.0 minutes
+
+
+Epoch 12:
+Mean loss 0.07016051549553162
+Epoch time ~2.0 minutes
+
+
+Epoch 13:
+Mean loss 0.06494356079508556
+Epoch time ~2.0 minutes
+
+
+Epoch 14:
+Mean loss 0.05994037163070067
+Epoch time ~2.0 minutes
+
+
+Epoch 15:
+Mean loss 0.07788437741276409
+Epoch time ~2.0 minutes
+
+
+Epoch 16:
+Mean loss 0.07220283085575366
+Epoch time ~2.0 minutes
+
+
+Epoch 17:
+Mean loss 0.07102461406205968
+Epoch time ~2.0 minutes
+
+
+Epoch 18:
+Mean loss 0.07535702181935665
+Epoch time ~2.0 minutes
+
+
+Epoch 19:
+Mean loss 0.08690375778950801
+Epoch time ~2.0 minutes
+
+
+Epoch 20:
+Mean loss 0.1042872302782196
+Epoch time ~2.0 minutes
+
+Training finished. Time ~1.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/chest_xray/inceptionV3_vib_1e-10.pth
+##################################################################
+BETA = 1e-09
+##################################################################
+
+Epoch 1:
+Mean loss 0.3154988432689439
+Epoch time ~2.0 minutes
+
+
+Epoch 2:
+Mean loss 0.19510301974717667
+Epoch time ~2.0 minutes
+
+
+Epoch 3:
+Mean loss 0.1201814088042268
+Epoch time ~2.0 minutes
+
+
+Epoch 4:
+Mean loss 0.09500532864702257
+Epoch time ~2.0 minutes
+
+
+Epoch 5:
+Mean loss 0.07374660733261235
+Epoch time ~2.0 minutes
+
+
+Epoch 6:
+Mean loss 0.08159334701010768
+Epoch time ~2.0 minutes
+
+
+Epoch 7:
+Mean loss 0.0691996158859344
+Epoch time ~2.0 minutes
+
+
+Epoch 8:
+Mean loss 0.07188678030827444
+Epoch time ~2.0 minutes
+
+
+Epoch 9:
+Mean loss 0.07095760420767819
+Epoch time ~2.0 minutes
+
+
+Epoch 10:
+Mean loss 0.08158462914578034
+Epoch time ~2.0 minutes
+
+
+Epoch 11:
+Mean loss 0.07103349848612382
+Epoch time ~2.0 minutes
+
+
+Epoch 12:
+Mean loss 0.07884034979375726
+Epoch time ~2.0 minutes
+
+
+Epoch 13:
+Mean loss 0.07109382029679813
+Epoch time ~2.0 minutes
+
+
+Epoch 14:
+Mean loss 0.06769849493866786
+Epoch time ~2.0 minutes
+
+
+Epoch 15:
+Mean loss 0.07861619969658858
+Epoch time ~2.0 minutes
+
+
+Epoch 16:
+Mean loss 0.074985838185546
+Epoch time ~2.0 minutes
+
+
+Epoch 17:
+Mean loss 0.06436820101502928
+Epoch time ~2.0 minutes
+
+
+Epoch 18:
+Mean loss 0.06232430960042212
+Epoch time ~2.0 minutes
+
+
+Epoch 19:
+Mean loss 0.07104341974157244
+Epoch time ~2.0 minutes
+
+
+Epoch 20:
+Mean loss 0.06559682620980707
+Epoch time ~2.0 minutes
+
+Training finished. Time ~1.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/chest_xray/inceptionV3_vib_1e-09.pth
+##################################################################
+BETA = 1e-08
+##################################################################
+
+Epoch 1:
+Mean loss 0.22682843991248594
+Epoch time ~2.0 minutes
+
+
+Epoch 2:
+Mean loss 0.16014438030529443
+Epoch time ~2.0 minutes
+
+
+Epoch 3:
+Mean loss 0.10671524185335682
+Epoch time ~2.0 minutes
+
+
+Epoch 4:
+Mean loss 0.0948900920829932
+Epoch time ~2.0 minutes
+
+
+Epoch 5:
+Mean loss 0.07192624635918408
+Epoch time ~2.0 minutes
+
+
+Epoch 6:
+Mean loss 0.07883780417238445
+Epoch time ~2.0 minutes
+
+
+Epoch 7:
+Mean loss 0.08650806897516254
+Epoch time ~2.0 minutes
+
+
+Epoch 8:
+Mean loss 0.07960719814948534
+Epoch time ~2.0 minutes
+
+
+Epoch 9:
+Mean loss 0.08105106433088492
+Epoch time ~2.0 minutes
+
+
+Epoch 10:
+Mean loss 0.07663930571466988
+Epoch time ~2.0 minutes
+
+
+Epoch 11:
+Mean loss 0.07046783530013953
+Epoch time ~2.0 minutes
+
+
+Epoch 12:
+Mean loss 0.07594949451788348
+Epoch time ~2.0 minutes
+
+
+Epoch 13:
+Mean loss 0.07245292375497774
+Epoch time ~2.0 minutes
+
+
+Epoch 14:
+Mean loss 0.0875966041261761
+Epoch time ~2.0 minutes
+
+
+Epoch 15:
+Mean loss 0.0672714684220335
+Epoch time ~2.0 minutes
+
+
+Epoch 16:
+Mean loss 0.06831774878597559
+Epoch time ~2.0 minutes
+
+
+Epoch 17:
+Mean loss 0.08188159892265844
+Epoch time ~2.0 minutes
+
+
+Epoch 18:
+Mean loss 0.07819900970405512
+Epoch time ~2.0 minutes
+
+
+Epoch 19:
+Mean loss 0.07709993104819449
+Epoch time ~2.0 minutes
+
+
+Epoch 20:
+Mean loss 0.07174136773144611
+Epoch time ~2.0 minutes
+
+Training finished. Time ~1.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/chest_xray/inceptionV3_vib_1e-08.pth
+##################################################################
+BETA = 1e-07
+##################################################################
+
+Epoch 1:
+Mean loss 0.3164785896489874
+Epoch time ~2.0 minutes
+
+
+Epoch 2:
+Mean loss 0.18173952456763676
+Epoch time ~2.0 minutes
+
+
+Epoch 3:
+Mean loss 0.08067860308821553
+Epoch time ~2.0 minutes
+
+
+Epoch 4:
+Mean loss 0.09303310350277366
+Epoch time ~2.0 minutes
+
+
+Epoch 5:
+Mean loss 0.09059331410874923
+Epoch time ~2.0 minutes
+
+
+Epoch 6:
+Mean loss 0.07403813941930072
+Epoch time ~2.0 minutes
+
+
+Epoch 7:
+Mean loss 0.08941647862511858
+Epoch time ~2.0 minutes
+
+
+Epoch 8:
+Mean loss 0.08829320754244492
+Epoch time ~2.0 minutes
+
+
+Epoch 9:
+Mean loss 0.07832033036523783
+Epoch time ~2.0 minutes
+
+
+Epoch 10:
+Mean loss 0.06610365364491483
+Epoch time ~2.0 minutes
+
+
+Epoch 11:
+Mean loss 0.07170432236530266
+Epoch time ~2.0 minutes
+
+
+Epoch 12:
+Mean loss 0.07850896144922519
+Epoch time ~2.0 minutes
+
+
+Epoch 13:
+Mean loss 0.07631862104623294
+Epoch time ~2.0 minutes
+
+
+Epoch 14:
+Mean loss 0.07597381377918963
+Epoch time ~2.0 minutes
+
+
+Epoch 15:
+Mean loss 0.07213120398168661
+Epoch time ~2.0 minutes
+
+
+Epoch 16:
+Mean loss 0.07452889944135281
+Epoch time ~2.0 minutes
+
+
+Epoch 17:
+Mean loss 0.08650882209894298
+Epoch time ~2.0 minutes
+
+
+Epoch 18:
+Mean loss 0.0729526074228612
+Epoch time ~2.0 minutes
+
+
+Epoch 19:
+Mean loss 0.06720130614497616
+Epoch time ~2.0 minutes
+
+
+Epoch 20:
+Mean loss 0.05302710724609657
+Epoch time ~2.0 minutes
+
+Training finished. Time ~1.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/chest_xray/inceptionV3_vib_1e-07.pth
+##################################################################
+BETA = 1e-06
+##################################################################
+
+Epoch 1:
+Mean loss 0.24995089770002896
+Epoch time ~2.0 minutes
+
+
+Epoch 2:
+Mean loss 0.1516326015370563
+Epoch time ~2.0 minutes
+
+
+Epoch 3:
+Mean loss 0.1238558468833363
+Epoch time ~2.0 minutes
+
+
+Epoch 4:
+Mean loss 0.09510655245002435
+Epoch time ~2.0 minutes
+
+
+Epoch 5:
+Mean loss 0.07550239337681076
+Epoch time ~2.0 minutes
+
+
+Epoch 6:
+Mean loss 0.08308736492838507
+Epoch time ~2.0 minutes
+
+
+Epoch 7:
+Mean loss 0.06362110292095513
+Epoch time ~2.0 minutes
+
+
+Epoch 8:
+Mean loss 0.07086479367425373
+Epoch time ~2.0 minutes
+
+
+Epoch 9:
+Mean loss 0.07710488733350851
+Epoch time ~2.0 minutes
+
+
+Epoch 10:
+Mean loss 0.08397472412784768
+Epoch time ~2.0 minutes
+
+
+Epoch 11:
+Mean loss 0.08345135964602106
+Epoch time ~2.0 minutes
+
+
+Epoch 12:
+Mean loss 0.07987745598965913
+Epoch time ~2.0 minutes
+
+
+Epoch 13:
+Mean loss 0.06840765784608618
+Epoch time ~2.0 minutes
+
+
+Epoch 14:
+Mean loss 0.06628831895226676
+Epoch time ~2.0 minutes
+
+
+Epoch 15:
+Mean loss 0.09435523778784602
+Epoch time ~2.0 minutes
+
+
+Epoch 16:
+Mean loss 0.08381508400609881
+Epoch time ~2.0 minutes
+
+
+Epoch 17:
+Mean loss 0.07048169936078796
+Epoch time ~2.0 minutes
+
+
+Epoch 18:
+Mean loss 0.06946727816454218
+Epoch time ~2.0 minutes
+
+
+Epoch 19:
+Mean loss 0.09233774648596006
+Epoch time ~2.0 minutes
+
+
+Epoch 20:
+Mean loss 0.07247982453079704
+Epoch time ~2.0 minutes
+
+Training finished. Time ~1.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/chest_xray/inceptionV3_vib_1e-06.pth
+##################################################################
+BETA = 1e-05
+##################################################################
+
+Epoch 1:
+Mean loss 0.25679526060036
+Epoch time ~2.0 minutes
+
+
+Epoch 2:
+Mean loss 0.169407263591998
+Epoch time ~2.0 minutes
+
+
+Epoch 3:
+Mean loss 0.11142802153845463
+Epoch time ~2.0 minutes
+
+
+Epoch 4:
+Mean loss 0.08815993736323831
+Epoch time ~2.0 minutes
+
+
+Epoch 5:
+Mean loss 0.07805204950669008
+Epoch time ~2.0 minutes
+
+
+Epoch 6:
+Mean loss 0.06758850633458165
+Epoch time ~2.0 minutes
+
+
+Epoch 7:
+Mean loss 0.08579749090131372
+Epoch time ~2.0 minutes
+
+
+Epoch 8:
+Mean loss 0.07687961199276504
+Epoch time ~2.0 minutes
+
+
+Epoch 9:
+Mean loss 0.08021166108130497
+Epoch time ~2.0 minutes
+
+
+Epoch 10:
+Mean loss 0.07821183894494814
+Epoch time ~2.0 minutes
+
+
+Epoch 11:
+Mean loss 0.07741848627171878
+Epoch time ~2.0 minutes
+
+
+Epoch 12:
+Mean loss 0.07421533350530239
+Epoch time ~2.0 minutes
+
+
+Epoch 13:
+Mean loss 0.08463708612969664
+Epoch time ~2.0 minutes
+
+
+Epoch 14:
+Mean loss 0.16157700647439627
+Epoch time ~2.0 minutes
+
+
+Epoch 15:
+Mean loss 0.06484539620895065
+Epoch time ~2.0 minutes
+
+
+Epoch 16:
+Mean loss 0.06851042309842471
+Epoch time ~2.0 minutes
+
+
+Epoch 17:
+Mean loss 0.07291304730401584
+Epoch time ~2.0 minutes
+
+
+Epoch 18:
+Mean loss 0.074459036211895
+Epoch time ~2.0 minutes
+
+
+Epoch 19:
+Mean loss 0.07027963587149445
+Epoch time ~2.0 minutes
+
+
+Epoch 20:
+Mean loss 0.07932222729190855
+Epoch time ~2.0 minutes
+
+Training finished. Time ~1.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/chest_xray/inceptionV3_vib_1e-05.pth
+##################################################################
+BETA = 0.0001
+##################################################################
+
+Epoch 1:
+Mean loss 0.25936168772691137
+Epoch time ~2.0 minutes
+
+
+Epoch 2:
+Mean loss 0.1554187300344169
+Epoch time ~2.0 minutes
+
+
+Epoch 3:
+Mean loss 0.09759767382123767
+Epoch time ~2.0 minutes
+
+
+Epoch 4:
+Mean loss 0.0717806857408715
+Epoch time ~2.0 minutes
+
+
+Epoch 5:
+Mean loss 0.0879383324962236
+Epoch time ~2.0 minutes
+
+
+Epoch 6:
+Mean loss 0.08137997253607883
+Epoch time ~2.0 minutes
+
+
+Epoch 7:
+Mean loss 0.07963939160536214
+Epoch time ~2.0 minutes
+
+
+Epoch 8:
+Mean loss 0.07588575704048584
+Epoch time ~2.0 minutes
+
+
+Epoch 9:
+Mean loss 0.06830911931493097
+Epoch time ~2.0 minutes
+
+
+Epoch 10:
+Mean loss 0.08291010819628936
+Epoch time ~2.0 minutes
+
+
+Epoch 11:
+Mean loss 0.08115015306579722
+Epoch time ~2.0 minutes
+
+
+Epoch 12:
+Mean loss 0.07976956687373471
+Epoch time ~2.0 minutes
+
+
+Epoch 13:
+Mean loss 0.07358850489630281
+Epoch time ~2.0 minutes
+
+
+Epoch 14:
+Mean loss 0.06725684673601419
+Epoch time ~2.0 minutes
+
+
+Epoch 15:
+Mean loss 0.06844022477102675
+Epoch time ~2.0 minutes
+
+
+Epoch 16:
+Mean loss 0.07066230321157292
+Epoch time ~2.0 minutes
+
+
+Epoch 17:
+Mean loss 0.07439978504284177
+Epoch time ~2.0 minutes
+
+
+Epoch 18:
+Mean loss 0.0865816662363632
+Epoch time ~2.0 minutes
+
+
+Epoch 19:
+Mean loss 0.08701939787953256
+Epoch time ~2.0 minutes
+
+
+Epoch 20:
+Mean loss 0.08906188728224461
+Epoch time ~2.0 minutes
+
+Training finished. Time ~1.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/chest_xray/inceptionV3_vib_0.0001.pth
+##################################################################
+BETA = 0.001
+##################################################################
+
+Epoch 1:
+Mean loss 0.2925311062884118
+Epoch time ~2.0 minutes
+
+
+Epoch 2:
+Mean loss 0.17944429410292076
+Epoch time ~2.0 minutes
+
+
+Epoch 3:
+Mean loss 0.12232044082907896
+Epoch time ~2.0 minutes
+
+
+Epoch 4:
+Mean loss 0.07539962697140619
+Epoch time ~2.0 minutes
+
+
+Epoch 5:
+Mean loss 0.09286409314265665
+Epoch time ~2.0 minutes
+
+
+Epoch 6:
+Mean loss 0.08826121116424498
+Epoch time ~2.0 minutes
+
+
+Epoch 7:
+Mean loss 0.10447446397207931
+Epoch time ~2.0 minutes
+
+
+Epoch 8:
+Mean loss 0.07180914617314631
+Epoch time ~2.0 minutes
+
+
+Epoch 9:
+Mean loss 0.08870816570991764
+Epoch time ~2.0 minutes
+
+
+Epoch 10:
+Mean loss 0.08798333278660771
+Epoch time ~2.0 minutes
+
+
+Epoch 11:
+Mean loss 0.09180849536518458
+Epoch time ~2.0 minutes
+
+
+Epoch 12:
+Mean loss 0.09638248825585152
+Epoch time ~2.0 minutes
+
+
+Epoch 13:
+Mean loss 0.10446830649803183
+Epoch time ~2.0 minutes
+
+
+Epoch 14:
+Mean loss 0.08693616387757416
+Epoch time ~2.0 minutes
+
+
+Epoch 15:
+/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/inception.py:81: FutureWarning: The default weight initialization of inception_v3 will be changed in future releases of torchvision. If you wish to keep the old behavior (which leads to long initialization times due to scipy/scipy#11299), please set init_weights=True.
+  warnings.warn('The default weight initialization of inception_v3 will be changed in future releases of '
+Mean loss 0.08158947444413187
+Epoch time ~2.0 minutes
+
+
+Epoch 16:
+Mean loss 0.08334331468799386
+Epoch time ~2.0 minutes
+
+
+Epoch 17:
+Mean loss 0.09366772551925814
+Epoch time ~2.0 minutes
+
+
+Epoch 18:
+Mean loss 0.06846600345202855
+Epoch time ~2.0 minutes
+
+
+Epoch 19:
+Mean loss 0.07432489462995104
+Epoch time ~2.0 minutes
+
+
+Epoch 20:
+Mean loss 0.06890724067810644
+Epoch time ~2.0 minutes
+
+Training finished. Time ~1.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/chest_xray/inceptionV3_vib_0.001.pth
+##################################################################
+BETA = 0.01
+##################################################################
+
+Epoch 1:
+Mean loss 0.3805333534065558
+Epoch time ~2.0 minutes
+
+
+Epoch 2:
+Mean loss 0.17542339312736274
+Epoch time ~2.0 minutes
+
+
+Epoch 3:
+Mean loss 0.18521568599809596
+Epoch time ~2.0 minutes
+
+
+Epoch 4:
+Mean loss 0.1446876418808488
+Epoch time ~2.0 minutes
+
+
+Epoch 5:
+Mean loss 0.10108629108539649
+Epoch time ~2.0 minutes
+
+
+Epoch 6:
+Mean loss 0.11132777078064526
+Epoch time ~2.0 minutes
+
+
+Epoch 7:
+Mean loss 0.09746950938283992
+Epoch time ~2.0 minutes
+
+
+Epoch 8:
+Mean loss 0.08969018785726457
+Epoch time ~2.0 minutes
+
+
+Epoch 9:
+Mean loss 0.10530137995473382
+Epoch time ~2.0 minutes
+
+
+Epoch 10:
+Mean loss 0.09502113996973248
+Epoch time ~2.0 minutes
+
+
+Epoch 11:
+Mean loss 0.1002075948885509
+Epoch time ~2.0 minutes
+
+
+Epoch 12:
+Mean loss 0.10645010450310043
+Epoch time ~2.0 minutes
+
+
+Epoch 13:
+Mean loss 0.09143060781568492
+Epoch time ~2.0 minutes
+
+
+Epoch 14:
+Mean loss 0.08409364985264077
+Epoch time ~2.0 minutes
+
+
+Epoch 15:
+Mean loss 0.0951450550485225
+Epoch time ~2.0 minutes
+
+
+Epoch 16:
+Mean loss 0.09399005011687069
+Epoch time ~2.0 minutes
+
+
+Epoch 17:
+Mean loss 0.11110942201296083
+Epoch time ~2.0 minutes
+
+
+Epoch 18:
+Mean loss 0.09460624374550622
+Epoch time ~2.0 minutes
+
+
+Epoch 19:
+Mean loss 0.12684606329924394
+Epoch time ~2.0 minutes
+
+
+Epoch 20:
+Mean loss 0.09926659161491054
+Epoch time ~2.0 minutes
+
+Training finished. Time ~1.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/chest_xray/inceptionV3_vib_0.01.pth
+##################################################################
+BETA = 0.1
+##################################################################
+
+Epoch 1:
+Mean loss 0.40572946366606927
+Epoch time ~2.0 minutes
+
+
+Epoch 2:
+Mean loss 0.2592655593643383
+Epoch time ~2.0 minutes
+
+
+Epoch 3:
+Mean loss 0.20596954576214965
+Epoch time ~2.0 minutes
+
+
+Epoch 4:
+Mean loss 0.18743048405566184
+Epoch time ~2.0 minutes
+
+
+Epoch 5:
+Mean loss 0.17381731831297584
+Epoch time ~2.0 minutes
+
+
+Epoch 6:
+Mean loss 0.1778115144594997
+Epoch time ~2.0 minutes
+
+
+Epoch 7:
+Mean loss 0.16127277591398784
+Epoch time ~2.0 minutes
+
+
+Epoch 8:
+Mean loss 0.17102943092179138
+Epoch time ~2.0 minutes
+
+
+Epoch 9:
+Mean loss 0.1646176229934303
+Epoch time ~2.0 minutes
+
+
+Epoch 10:
+Mean loss 0.15372807061185642
+Epoch time ~2.0 minutes
+
+
+Epoch 11:
+Mean loss 0.15205993422237382
+Epoch time ~2.0 minutes
+
+
+Epoch 12:
+Mean loss 0.16716604679822922
+Epoch time ~2.0 minutes
+
+
+Epoch 13:
+Mean loss 0.16413542182267118
+Epoch time ~2.0 minutes
+
+
+Epoch 14:
+Mean loss 0.165993960738993
+Epoch time ~2.0 minutes
+
+
+Epoch 15:
+Mean loss 0.14005706803936538
+Epoch time ~2.0 minutes
+
+
+Epoch 16:
+Mean loss 0.1323173044844955
+Epoch time ~2.0 minutes
+
+
+Epoch 17:
+Mean loss 0.12951917991954454
+Epoch time ~2.0 minutes
+
+
+Epoch 18:
+Mean loss 0.149968030476043
+Epoch time ~2.0 minutes
+
+
+Epoch 19:
+Mean loss 0.15498801087643824
+Epoch time ~2.0 minutes
+
+
+Epoch 20:
+Mean loss 0.12396602147594601
+Epoch time ~2.0 minutes
+
+Training finished. Time ~1.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/chest_xray/inceptionV3_vib_0.1.pth

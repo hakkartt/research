@@ -1,0 +1,160 @@
+/pytorch/aten/src/ATen/native/cuda/ScatterGatherKernel.cu:276: operator(): block: [0,0,0], thread: [0,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+/pytorch/aten/src/ATen/native/cuda/ScatterGatherKernel.cu:276: operator(): block: [0,0,0], thread: [2,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+/pytorch/aten/src/ATen/native/cuda/ScatterGatherKernel.cu:276: operator(): block: [0,0,0], thread: [3,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+/pytorch/aten/src/ATen/native/cuda/ScatterGatherKernel.cu:276: operator(): block: [0,0,0], thread: [4,0,0] Assertion `idx_dim >= 0 && idx_dim < index_size && "index out of bounds"` failed.
+File path is /scratch/work/hakkina7/melanoma/
+Device is cuda
+Model succesfully loaded from /scratch/work/hakkina7/melanoma/inceptionV3_nonweighted.pth
+Evaluating the inceptionV3_nonweighted.pth model on the test set.
+
+##################################################################
+No attack
+Computing took ~2 minutes.
+
+Classified 68.25 % of test images correctly.
+##################################################################
+
+Precision on test set: [0.34 0.63 0.43 0.   0.6  0.77 0.35 0.95]
+Recall on test set: [0.23 0.68 0.37 0.   0.51 0.88 0.06 0.5 ]
+F1-score on test set: [0.28 0.65 0.4  0.   0.55 0.82 0.11 0.66]
+ROC AUC on test set: {'AK': 0.79, 'BCC': 0.94, 'BKL': 0.61, 'DF': 0.74, 'MEL': 0.5, 'NV': 0.17, 'SCC': 0.81, 'VASC': 0.7}
+Confusion matrix on test set:
+                 pred as AK  pred as BCC  ...  pred as SCC  pred as VASC
+true class AK            30           35  ...            3             0
+true class BCC           21          338  ...            4             1
+true class BKL           11           34  ...            1             0
+true class DF             0           10  ...            1             0
+true class MEL           10           36  ...            1             0
+true class NV             4           42  ...            1             0
+true class SCC           10           33  ...            6             0
+true class VASC           1            7  ...            0            19
+
+[8 rows x 8 columns]
+
+
+##################################################################
+FGM
+Computing took ~2 minutes.
+
+Classified 44.72 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD with 1 iterations
+Computing took ~2 minutes.
+
+Classified 34.64 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD with 2 iterations
+Computing took ~2 minutes.
+
+Classified 21.43 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD with 5 iterations
+Computing took ~4 minutes.
+
+Classified 14.58 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD with 10 iterations
+Computing took ~6 minutes.
+
+Classified 13.64 % of test images correctly.
+##################################################################
+
+
+##################################################################
+PGD with 20 iterations
+Computing took ~11 minutes.
+
+Classified 13.40 % of test images correctly.
+##################################################################
+
+/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/inception.py:81: FutureWarning: The default weight initialization of inception_v3 will be changed in future releases of torchvision. If you wish to keep the old behavior (which leads to long initialization times due to scipy/scipy#11299), please set init_weights=True.
+  warnings.warn('The default weight initialization of inception_v3 will be changed in future releases of '
+/share/apps/anaconda-ci/fgci-centos7-anaconda/software/anaconda/2021-03-tf2/e54ecce8/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Traceback (most recent call last):
+  File "eval_inception_nonweighted.py", line 169, in <module>
+    evaluate(model, testloader, adv='CW')
+  File "eval_inception_nonweighted.py", line 76, in evaluate
+    images = CW(model, images, n_classes=2)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/cleverhans/torch/attacks/carlini_wagner_l2.py", line 145, in carlini_wagner_l2
+    logits = model_fn(new_x)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/inception.py", line 200, in forward
+    x, aux = self._forward(x)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/inception.py", line 153, in _forward
+    x = self.Mixed_5b(x)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/inception.py", line 249, in forward
+    outputs = self._forward(x)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/inception.py", line 243, in _forward
+    branch_pool = self.branch_pool(branch_pool)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torchvision/models/inception.py", line 472, in forward
+    x = self.conv(x)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 446, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/hakkina7/.local/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 442, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED
+You can try to repro this exception using the following code snippet. If that doesn't trigger the error, please include your original repro script when reporting this issue.
+
+import torch
+torch.backends.cuda.matmul.allow_tf32 = True
+torch.backends.cudnn.benchmark = False
+torch.backends.cudnn.deterministic = False
+torch.backends.cudnn.allow_tf32 = True
+data = torch.randn([5, 192, 35, 35], dtype=torch.float, device='cuda', requires_grad=True)
+net = torch.nn.Conv2d(192, 32, kernel_size=[1, 1], padding=[0, 0], stride=[1, 1], dilation=[1, 1], groups=1)
+net = net.cuda().float()
+out = net(data)
+out.backward(torch.randn_like(out))
+torch.cuda.synchronize()
+
+ConvolutionParams 
+    data_type = CUDNN_DATA_FLOAT
+    padding = [0, 0, 0]
+    stride = [1, 1, 0]
+    dilation = [1, 1, 0]
+    groups = 1
+    deterministic = false
+    allow_tf32 = true
+input: TensorDescriptor 0x55f0c756fce0
+    type = CUDNN_DATA_FLOAT
+    nbDims = 4
+    dimA = 5, 192, 35, 35, 
+    strideA = 235200, 1225, 35, 1, 
+output: TensorDescriptor 0x55f0c79f0090
+    type = CUDNN_DATA_FLOAT
+    nbDims = 4
+    dimA = 5, 32, 35, 35, 
+    strideA = 39200, 1225, 35, 1, 
+weight: FilterDescriptor 0x55f0c70e6700
+    type = CUDNN_DATA_FLOAT
+    tensor_format = CUDNN_TENSOR_NCHW
+    nbDims = 4
+    dimA = 32, 192, 1, 1, 
+Pointer addresses: 
+    input: 0x2b98dcd8d000
+    output: 0x2b98cd6f0000
+    weight: 0x2b98ad5a2400
+Forward algorithm: 1
+
+srun: error: gpu12: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=65466508.0

@@ -1,0 +1,104 @@
+File path is /scratch/work/hakkina7/chest_xray/
+Device is cuda
+
+Epoch 1:
+Mean loss 1.0980716712620793
+Epoch time ~2.0 minutes
+
+
+Epoch 2:
+Mean loss 0.8974769857465005
+Epoch time ~1.0 minutes
+
+
+Epoch 3:
+Mean loss 0.7894743672844504
+Epoch time ~1.0 minutes
+
+
+Epoch 4:
+Mean loss 0.7365886191932522
+Epoch time ~1.0 minutes
+
+
+Epoch 5:
+Mean loss 0.7213888946844607
+Epoch time ~1.0 minutes
+
+
+Epoch 6:
+Mean loss 0.7105621500891082
+Epoch time ~2.0 minutes
+
+
+Epoch 7:
+Mean loss 0.7096554134167782
+Epoch time ~1.0 minutes
+
+
+Epoch 8:
+Mean loss 0.7100214597319259
+Epoch time ~1.0 minutes
+
+
+Epoch 9:
+Mean loss 0.7092363043707244
+Epoch time ~1.0 minutes
+
+
+Epoch 10:
+Mean loss 0.7064590336514168
+Epoch time ~1.0 minutes
+
+
+Epoch 11:
+Mean loss 0.712673692070708
+Epoch time ~1.0 minutes
+
+
+Epoch 12:
+Mean loss 0.7060136872083962
+Epoch time ~1.0 minutes
+
+
+Epoch 13:
+Mean loss 0.7100927667552922
+Epoch time ~2.0 minutes
+
+
+Epoch 14:
+Mean loss 0.70924677491999
+Epoch time ~1.0 minutes
+
+
+Epoch 15:
+Mean loss 0.7099732914749457
+Epoch time ~1.0 minutes
+
+
+Epoch 16:
+Mean loss 0.708212982229635
+Epoch time ~1.0 minutes
+
+
+Epoch 17:
+Mean loss 0.7092248987989361
+Epoch time ~1.0 minutes
+
+
+Epoch 18:
+Mean loss 0.7117620706558228
+Epoch time ~1.0 minutes
+
+
+Epoch 19:
+Mean loss 0.7087517932158749
+Epoch time ~1.0 minutes
+
+
+Epoch 20:
+Mean loss 0.7062193090412893
+Epoch time ~1.0 minutes
+
+Training finished. Time ~1.0 hours.
+Model succesfully saved to /scratch/work/hakkina7/chest_xray/resnet50_vib_nw.pth
